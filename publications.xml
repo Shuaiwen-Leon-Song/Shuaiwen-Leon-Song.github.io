@@ -1,0 +1,1398 @@
+<?xml version="1.0" ?>
+<dblpperson name="Shuaiwen Song" pid="23/7512" n="66">
+    <person key="homepages/23/7512" mdate="2013-05-13">
+        <author pid="23/7512">Shuaiwen Song</author>
+        <author pid="23/7512">Shuaiwen Leon Song</author>
+    </person>
+    <r>
+        <article key="journals/tpds/LiSCLLTB20" mdate="2020-01-15">
+            <author orcid="0000-0003-3734-9137" pid="33/2805">Ang Li</author>
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <author pid="170/3360">Jieyang Chen</author>
+            <author pid="89/9032">Jiajia Li</author>
+            <author orcid="0000-0002-8984-5485" pid="93/3167-1">Xu Liu 0001</author>
+            <author pid="54/5039">Nathan R. Tallent</author>
+            <author pid="23/6533">Kevin J. Barker</author>
+            <title>Evaluating Modern GPU Interconnect: PCIe, NVLink, NV-SLI, NVSwitch and GPUDirect.</title>
+            <pages>94-110</pages>
+            <year>2020</year>
+            <volume>31</volume>
+            <journal>IEEE Trans. Parallel Distrib. Syst.</journal>
+            <number>1</number>
+            <ee>https://doi.org/10.1109/TPDS.2019.2928289</ee>
+            <url>db/journals/tpds/tpds31.html#LiSCLLTB20</url>
+        </article>
+    </r>
+    <r>
+        <article publtype="informal" key="journals/corr/abs-2001-03537" mdate="2020-01-17">
+            <author pid="175/5479">Chenhao Xie</author>
+            <author pid="18/2495">Xin Fu</author>
+            <author pid="95/573">Mingsong Chen</author>
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <title>OO-VR: NUMA Friendly Object-Oriented VR Rendering Framework For Future NUMA-Based Multi-GPU Systems.</title>
+            <year>2020</year>
+            <volume>abs/2001.03537</volume>
+            <journal>CoRR</journal>
+            <ee type="oa">https://arxiv.org/abs/2001.03537</ee>
+            <url>db/journals/corr/corr2001.html#abs-2001-03537</url>
+        </article>
+    </r>
+    <r>
+        <article publtype="informal" key="journals/corr/abs-2002-03258" mdate="2020-02-12">
+            <author pid="258/3143">Cody Rivera</author>
+            <author pid="170/3360">Jieyang Chen</author>
+            <author pid="206/0901">Nan Xiong</author>
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <author pid="162/0802">Dingwen Tao</author>
+            <title>ISM2: Optimizing Irregular-Shaped Matrix-Matrix Multiplication on GPUs.</title>
+            <year>2020</year>
+            <volume>abs/2002.03258</volume>
+            <journal>CoRR</journal>
+            <ee type="oa">https://arxiv.org/abs/2002.03258</ee>
+            <url>db/journals/corr/corr2002.html#abs-2002-03258</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/asap/GengWWYSLH19" mdate="2019-09-09">
+            <author pid="188/5531">Tong Geng</author>
+            <author pid="77/6747">Tianqi Wang</author>
+            <author pid="243/1631">Chunshu Wu</author>
+            <author pid="01/2478">Chen Yang</author>
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <author pid="33/2805">Ang Li</author>
+            <author pid="87/324">Martin C. Herbordt</author>
+            <title>LP-BNN: Ultra-low-Latency BNN Inference with Layer Parallelism.</title>
+            <pages>9-16</pages>
+            <year>2019</year>
+            <booktitle>ASAP</booktitle>
+            <ee>https://doi.org/10.1109/ASAP.2019.00-43</ee>
+            <crossref>conf/asap/2019</crossref>
+            <url>db/conf/asap/asap2019.html#GengWWYSLH19</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/date/TanYSF19" mdate="2019-05-20">
+            <author pid="118/8945">Jingweijia Tan</author>
+            <author pid="24/10405">Kaige Yan</author>
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <author pid="18/2495">Xin Fu</author>
+            <title>LoSCache: Leveraging Locality Similarity to Build Energy-Efficient GPU L2 Cache.</title>
+            <pages>1190-1195</pages>
+            <year>2019</year>
+            <booktitle>DATE</booktitle>
+            <ee>https://doi.org/10.23919/DATE.2019.8714911</ee>
+            <crossref>conf/date/2019</crossref>
+            <url>db/conf/date/date2019.html#TanYSF19</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/hpca/XieZLFS19" mdate="2019-04-02">
+            <author pid="175/5479">Chenhao Xie</author>
+            <author pid="173/9816">Xingyao Zhang</author>
+            <author pid="33/2805">Ang Li</author>
+            <author pid="18/2495">Xin Fu</author>
+            <author pid="23/7512">Shuaiwen Song</author>
+            <title>PIM-VR: Erasing Motion Anomalies In Highly-Interactive Virtual Reality World with Customized Memory Cube.</title>
+            <pages>609-622</pages>
+            <year>2019</year>
+            <booktitle>HPCA</booktitle>
+            <ee>https://doi.org/10.1109/HPCA.2019.00013</ee>
+            <crossref>conf/hpca/2019</crossref>
+            <url>db/conf/hpca/hpca2019.html#XieZLFS19</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/isca/XieFCS19" mdate="2020-02-10">
+            <author pid="175/5479">Chenhao Xie</author>
+            <author pid="18/2495">Xin Fu</author>
+            <author pid="95/573">Mingsong Chen</author>
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <title>OO-VR: NUMA friendly object-oriented VR rendering framework for future NUMA-based multi-GPU systems.</title>
+            <pages>53-65</pages>
+            <year>2019</year>
+            <booktitle>ISCA</booktitle>
+            <ee>https://doi.org/10.1145/3307650.3322247</ee>
+            <ee>http://ieeexplore.ieee.org/document/117787617</ee>
+            <crossref>conf/isca/2019</crossref>
+            <url>db/conf/isca/isca2019.html#XieFCS19</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sc/LiGWHSB19" mdate="2019-11-09">
+            <author pid="33/2805">Ang Li</author>
+            <author pid="188/5531">Tong Geng</author>
+            <author pid="77/6747">Tianqi Wang</author>
+            <author pid="87/324">Martin C. Herbordt</author>
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <author pid="23/6533">Kevin J. Barker</author>
+            <title>BSTC: a novel binarized-soft-tensor-core design for accelerating bit-based approximated neural nets.</title>
+            <pages>38:1-38:30</pages>
+            <year>2019</year>
+            <booktitle>SC</booktitle>
+            <ee>https://doi.org/10.1145/3295500.3356169</ee>
+            <crossref>conf/sc/2019</crossref>
+            <url>db/conf/sc/sc2019.html#LiGWHSB19</url>
+        </inproceedings>
+    </r>
+    <r>
+        <article publtype="informal" key="journals/corr/abs-1903-04611" mdate="2019-06-13">
+            <author pid="33/2805">Ang Li</author>
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <author pid="170/3360">Jieyang Chen</author>
+            <author pid="89/9032">Jiajia Li</author>
+            <author pid="93/3167-1">Xu Liu 0001</author>
+            <author pid="54/5039">Nathan R. Tallent</author>
+            <author pid="23/6533">Kevin J. Barker</author>
+            <title>Evaluating Modern GPU Interconnect: PCIe, NVLink, NV-SLI, NVSwitch and GPUDirect.</title>
+            <year>2019</year>
+            <volume>abs/1903.04611</volume>
+            <journal>CoRR</journal>
+            <ee type="oa">http://arxiv.org/abs/1903.04611</ee>
+            <url>db/journals/corr/corr1903.html#abs-1903-04611</url>
+        </article>
+    </r>
+    <r>
+        <article publtype="informal" key="journals/corr/abs-1911-03451" mdate="2019-12-01">
+            <author pid="173/9816">Xingyao Zhang</author>
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <author pid="175/5479">Chenhao Xie</author>
+            <author pid="02/736-55">Jing Wang 0055</author>
+            <author pid="90/7721">Weigong Zhang</author>
+            <author pid="18/2495">Xin Fu</author>
+            <title>Enabling Highly Efficient Capsule Networks Processing Through A PIM-Based Architecture Design.</title>
+            <year>2019</year>
+            <volume>abs/1911.03451</volume>
+            <journal>CoRR</journal>
+            <ee type="oa">http://arxiv.org/abs/1911.03451</ee>
+            <url>db/journals/corr/corr1911.html#abs-1911-03451</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/taco/RoySKVSL18" mdate="2018-11-21">
+            <author pid="117/9218">Probir Roy</author>
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <author pid="k/SriramKrishnamoorthy">Sriram Krishnamoorthy</author>
+            <author pid="92/2581">Abhinav Vishnu</author>
+            <author pid="77/3162">Dipanjan Sengupta</author>
+            <author pid="93/3167-1">Xu Liu 0001</author>
+            <title>NUMA-Caffe: NUMA-Aware Deep Learning Neural Networks.</title>
+            <pages>24:1-24:26</pages>
+            <year>2018</year>
+            <volume>15</volume>
+            <journal>TACO</journal>
+            <number>2</number>
+            <ee>https://doi.org/10.1145/3199605</ee>
+            <url>db/journals/taco/taco15.html#RoySKVSL18</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/cgo/RoySKL18" mdate="2018-11-21">
+            <author pid="117/9218">Probir Roy</author>
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <author pid="k/SriramKrishnamoorthy">Sriram Krishnamoorthy</author>
+            <author pid="93/3167-1">Xu Liu 0001</author>
+            <title>Lightweight detection of cache conflicts.</title>
+            <pages>200-213</pages>
+            <year>2018</year>
+            <booktitle>CGO</booktitle>
+            <ee>https://doi.org/10.1145/3168819</ee>
+            <crossref>conf/cgo/2018</crossref>
+            <url>db/conf/cgo/cgo2018.html#RoySKL18</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/cgo/ShenSLL18" mdate="2018-11-21">
+            <author pid="165/9650">Du Shen</author>
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <author pid="33/2805">Ang Li</author>
+            <author pid="93/3167-1">Xu Liu 0001</author>
+            <title>CUDAAdvisor: LLVM-based runtime profiling for modern GPUs.</title>
+            <pages>214-227</pages>
+            <year>2018</year>
+            <booktitle>CGO</booktitle>
+            <ee>https://doi.org/10.1145/3168831</ee>
+            <crossref>conf/cgo/2018</crossref>
+            <url>db/conf/cgo/cgo2018.html#ShenSLL18</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/hpca/XieFS18" mdate="2018-05-11">
+            <author pid="175/5479">Chenhao Xie</author>
+            <author pid="18/2495">Xin Fu</author>
+            <author pid="23/7512">Shuaiwen Song</author>
+            <title>Perception-Oriented 3D Rendering Approximation for Modern Graphics Processors.</title>
+            <pages>362-374</pages>
+            <year>2018</year>
+            <booktitle>HPCA</booktitle>
+            <ee>https://doi.org/10.1109/HPCA.2018.00039</ee>
+            <ee>http://doi.ieeecomputersociety.org/10.1109/HPCA.2018.00039</ee>
+            <crossref>conf/hpca/2018</crossref>
+            <url>db/conf/hpca/hpca2018.html#XieFS18</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/ics/Li0WBS18" mdate="2018-11-21">
+            <author pid="33/2805">Ang Li</author>
+            <author pid="23/1112-2">Weifeng Liu 0002</author>
+            <author pid="169/9748">Linnan Wang</author>
+            <author pid="23/6533">Kevin J. Barker</author>
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <title>Warp-Consolidation: A Novel Execution Model for GPUs.</title>
+            <pages>53-64</pages>
+            <year>2018</year>
+            <booktitle>ICS</booktitle>
+            <ee>https://doi.org/10.1145/3205289.3205294</ee>
+            <crossref>conf/ics/2018</crossref>
+            <url>db/conf/ics/ics2018.html#Li0WBS18</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/iiswc/LiSC0TB18" mdate="2018-12-23">
+            <author pid="33/2805">Ang Li</author>
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <author pid="170/3360">Jieyang Chen</author>
+            <author pid="93/3167-1">Xu Liu 0001</author>
+            <author pid="54/5039">Nathan R. Tallent</author>
+            <author pid="23/6533">Kevin J. Barker</author>
+            <title>Tartan: Evaluating Modern GPU Interconnect via a Multi-GPU Benchmark Suite.</title>
+            <pages>191-202</pages>
+            <year>2018</year>
+            <booktitle>IISWC</booktitle>
+            <ee>https://doi.org/10.1109/IISWC.2018.8573483</ee>
+            <ee>http://doi.ieeecomputersociety.org/10.1109/IISWC.2018.8573483</ee>
+            <crossref>conf/iiswc/2018</crossref>
+            <url>db/conf/iiswc/iiswc2018.html#LiSC0TB18</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/ipps/SongBL18" mdate="2018-08-08">
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <author pid="130/7318">Natalie J. Bates</author>
+            <author pid="33/2805">Ang Li</author>
+            <title>Introduction to HPPAC 2018.</title>
+            <pages>674</pages>
+            <year>2018</year>
+            <booktitle>IPDPS Workshops</booktitle>
+            <ee>https://doi.org/10.1109/IPDPSW.2018.00108</ee>
+            <ee>http://doi.ieeecomputersociety.org/10.1109/IPDPSW.2018.00108</ee>
+            <crossref>conf/ipps/2018w</crossref>
+            <url>db/conf/ipps/ipdps2018w.html#SongBL18</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/ppopp/WangYZWLSXK18" mdate="2019-09-27">
+            <author pid="169/9748">Linnan Wang</author>
+            <author pid="190/7150">Jinmian Ye</author>
+            <author pid="33/3791">Yiyang Zhao</author>
+            <author orcid="0000-0002-2750-6365" pid="95/6985-16">Wei Wu 0016</author>
+            <author pid="33/2805">Ang Li</author>
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <author pid="68/1538">Zenglin Xu</author>
+            <author pid="26/6037">Tim Kraska</author>
+            <title>Superneurons: dynamic GPU memory management for training deep neural networks.</title>
+            <pages>41-53</pages>
+            <year>2018</year>
+            <booktitle>PPOPP</booktitle>
+            <ee>https://doi.org/10.1145/3178487.3178491</ee>
+            <crossref>conf/ppopp/2018</crossref>
+            <url>db/conf/ppopp/ppopp2018.html#WangYZWLSXK18</url>
+        </inproceedings>
+    </r>
+    <r>
+        <article publtype="informal" key="journals/corr/abs-1801-04380" mdate="2019-12-19">
+            <author pid="169/9748">Linnan Wang</author>
+            <author pid="190/7150">Jinmian Ye</author>
+            <author pid="33/3791">Yiyang Zhao</author>
+            <author pid="95/6985-16">Wei Wu 0016</author>
+            <author pid="33/2805">Ang Li</author>
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <author pid="68/1538">Zenglin Xu</author>
+            <author pid="26/6037">Tim Kraska</author>
+            <title>SuperNeurons: Dynamic GPU Memory Management for Training Deep Neural Networks.</title>
+            <year>2018</year>
+            <volume>abs/1801.04380</volume>
+            <journal>CoRR</journal>
+            <ee type="oa">http://arxiv.org/abs/1801.04380</ee>
+            <url>db/journals/corr/corr1801.html#abs-1801-04380</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/asplos/LiS0L0C17" mdate="2018-11-06">
+            <author pid="33/2805">Ang Li</author>
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <author pid="23/1112-2">Weifeng Liu 0002</author>
+            <author pid="93/3167-1">Xu Liu 0001</author>
+            <author pid="29/414">Akash Kumar 0001</author>
+            <author pid="53/6375">Henk Corporaal</author>
+            <title>Locality-Aware CTA Clustering for Modern GPUs.</title>
+            <pages>297-311</pages>
+            <year>2017</year>
+            <booktitle>ASPLOS</booktitle>
+            <ee>https://doi.org/10.1145/3037697.3037709</ee>
+            <crossref>conf/asplos/2017</crossref>
+            <url>db/conf/asplos/asplos2017.html#LiS0L0C17</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/hpca/XieSWZF17" mdate="2019-11-08">
+            <author pid="175/5479">Chenhao Xie</author>
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <author pid="02/736-55">Jing Wang 0055</author>
+            <author pid="90/7721">Weigong Zhang</author>
+            <author pid="18/2495">Xin Fu</author>
+            <title>Processing-in-Memory Enabled Graphics Processors for 3D Rendering.</title>
+            <pages>637-648</pages>
+            <year>2017</year>
+            <booktitle>HPCA</booktitle>
+            <ee>https://doi.org/10.1109/HPCA.2017.37</ee>
+            <ee>http://doi.ieeecomputersociety.org/10.1109/HPCA.2017.37</ee>
+            <crossref>conf/hpca/2017</crossref>
+            <url>db/conf/hpca/hpca2017.html#XieSWZF17</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/ics/QiuZWVS17" mdate="2018-11-06">
+            <author pid="185/0237">Junqiao Qiu</author>
+            <author pid="40/6732">Zhijia Zhao 0001</author>
+            <author pid="47/6534-2">Bo Wu 0002</author>
+            <author pid="92/2581">Abhinav Vishnu</author>
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <title>Enabling scalability-sensitive speculative parallelization for FSM computations.</title>
+            <pages>2:1-2:10</pages>
+            <year>2017</year>
+            <booktitle>ICS</booktitle>
+            <ee>https://doi.org/10.1145/3079079.3079082</ee>
+            <crossref>conf/ics/2017</crossref>
+            <url>db/conf/ics/ics2017.html#QiuZWVS17</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/ipps/SongV17" mdate="2019-09-25">
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <author orcid="0000-0003-2178-138X" pid="v/RVuduc">Richard W. Vuduc</author>
+            <title>HPPAC Workshop Introduction.</title>
+            <pages>952</pages>
+            <year>2017</year>
+            <booktitle>IPDPS Workshops</booktitle>
+            <ee>https://doi.org/10.1109/IPDPSW.2017.182</ee>
+            <ee>http://doi.ieeecomputersociety.org/10.1109/IPDPSW.2017.182</ee>
+            <crossref>conf/ipps/2017w</crossref>
+            <url>db/conf/ipps/ipdps2017w.html#SongV17</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/ipps/SongH17" mdate="2019-02-12">
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <author pid="16/3869">Torsten Hoefler</author>
+            <title>IPDRM Workshop Introduction.</title>
+            <pages>1284</pages>
+            <year>2017</year>
+            <booktitle>IPDPS Workshops</booktitle>
+            <ee>https://doi.org/10.1109/IPDPSW.2017.184</ee>
+            <ee>http://doi.ieeecomputersociety.org/10.1109/IPDPSW.2017.184</ee>
+            <crossref>conf/ipps/2017w</crossref>
+            <url>db/conf/ipps/ipdps2017w.html#SongH17</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/micro/LiZS17" mdate="2019-05-13">
+            <author pid="33/2805">Ang Li</author>
+            <author pid="28/727">Wenfeng Zhao</author>
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <title>BVF: enabling significant on-chip power savings via bit-value-favor for throughput processors.</title>
+            <pages>532-545</pages>
+            <year>2017</year>
+            <booktitle>MICRO</booktitle>
+            <ee>https://doi.org/10.1145/3123939.3123944</ee>
+            <ee>http://ieeexplore.ieee.org/document/8686496</ee>
+            <crossref>conf/micro/2017</crossref>
+            <url>db/conf/micro/micro2017.html#LiZS17</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sc/LiLKVWHMS17" mdate="2018-11-06">
+            <author pid="33/2805">Ang Li</author>
+            <author pid="23/1112-2">Weifeng Liu 0002</author>
+            <author orcid="0000-0001-6079-7742" pid="88/7434">Mads Ruben Burgdorff Kristensen</author>
+            <author pid="30/2521">Brian Vinter</author>
+            <author pid="181/2812">Hao Wang</author>
+            <author pid="11/10310">Kaixi Hou</author>
+            <author pid="21/3063">Andres Marquez</author>
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <title>Exploring and analyzing the real impact of modern on-package memory on HPC scientific kernels.</title>
+            <pages>26:1-26:14</pages>
+            <year>2017</year>
+            <booktitle>SC</booktitle>
+            <ee>https://doi.org/10.1145/3126908.3126931</ee>
+            <crossref>conf/sc/2017</crossref>
+            <url>db/conf/sc/sc2017.html#LiLKVWHMS17</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sc/ZhangJSS17" mdate="2019-05-29">
+            <author orcid="0000-0003-2266-2956" pid="181/2597">Ning Zhang</author>
+            <author pid="83/7802">Chuntao Jiang</author>
+            <author pid="s/XHSun">Xian-He Sun</author>
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <title>Evaluating GPGPU Memory Performance Through the C-AMAT Model.</title>
+            <pages>35-39</pages>
+            <year>2017</year>
+            <booktitle>MCHPC@SC</booktitle>
+            <ee>https://doi.org/10.1145/3145617.3158214</ee>
+            <crossref>conf/sc/2017mchpc</crossref>
+            <url>db/conf/sc/mchpc2017.html#ZhangJSS17</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/supercomputer/SenguptaS17" mdate="2017-06-09">
+            <author pid="77/3162">Dipanjan Sengupta</author>
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <title>EvoGraph: On-the-Fly Efficient Mining of Evolving Graphs on GPU.</title>
+            <pages>97-119</pages>
+            <year>2017</year>
+            <booktitle>ISC</booktitle>
+            <ee>https://doi.org/10.1007/978-3-319-58667-0_6</ee>
+            <crossref>conf/supercomputer/2017</crossref>
+            <url>db/conf/supercomputer/isc2017.html#SenguptaS17</url>
+        </inproceedings>
+    </r>
+    <r>
+        <article key="journals/taco/TanCS16" mdate="2018-11-06">
+            <author pid="93/6375">Li Tan</author>
+            <author pid="66/5474">Zizhong Chen</author>
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <title>Scalable Energy Efficiency with Resilience for High Performance Computing Systems: A Quantitative Methodology.</title>
+            <pages>35:1-35:27</pages>
+            <year>2016</year>
+            <volume>12</volume>
+            <journal>TACO</journal>
+            <number>4</number>
+            <ee>https://doi.org/10.1145/2822893</ee>
+            <url>db/journals/taco/taco12.html#TanCS16</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/IEEEpact/TanSYFMK16" mdate="2018-11-06">
+            <author pid="118/8945">Jingweijia Tan</author>
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <author pid="24/10405">Kaige Yan</author>
+            <author pid="18/2495">Xin Fu</author>
+            <author pid="21/3063">Andr&#232;s M&#225;rquez</author>
+            <author pid="61/4750">Darren J. Kerbyson</author>
+            <title>Combating the Reliability Challenge of GPU Register File at Low Supply Voltage.</title>
+            <pages>3-15</pages>
+            <year>2016</year>
+            <booktitle>PACT</booktitle>
+            <ee>https://doi.org/10.1145/2967938.2967951</ee>
+            <ee>http://ieeexplore.ieee.org/document/7756763/</ee>
+            <crossref>conf/IEEEpact/2016</crossref>
+            <url>db/conf/IEEEpact/pact2016.html#TanSYFMK16</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/date/LiSKZCC16" mdate="2017-04-30">
+            <author pid="33/2805">Ang Li</author>
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <author pid="29/414">Akash Kumar 0001</author>
+            <author pid="93/1040">Eddy Z. Zhang</author>
+            <author pid="98/5776">Daniel G. Chavarr&#237;a-Miranda</author>
+            <author pid="53/6375">Henk Corporaal</author>
+            <title>Critical points based register-concurrency autotuning for GPUs.</title>
+            <pages>1273-1278</pages>
+            <year>2016</year>
+            <booktitle>DATE</booktitle>
+            <ee>http://ieeexplore.ieee.org/document/7459506/</ee>
+            <crossref>conf/date/2016</crossref>
+            <url>db/conf/date/date2016.html#LiSKZCC16</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/hpdc/TaoSKWLZKC16" mdate="2019-09-25">
+            <author orcid="0000-0001-5422-4497" pid="162/0802">Dingwen Tao</author>
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <author pid="k/SriramKrishnamoorthy">Sriram Krishnamoorthy</author>
+            <author pid="121/1949">Panruo Wu</author>
+            <author pid="31/7475">Xin Liang</author>
+            <author pid="93/1040">Eddy Z. Zhang</author>
+            <author pid="61/4750">Darren J. Kerbyson</author>
+            <author pid="66/5474">Zizhong Chen</author>
+            <title>New-Sum: A Novel Online ABFT Scheme For General Iterative Methods.</title>
+            <pages>43-55</pages>
+            <year>2016</year>
+            <booktitle>HPDC</booktitle>
+            <ee>https://doi.org/10.1145/2907294.2907306</ee>
+            <crossref>conf/hpdc/2016</crossref>
+            <url>db/conf/hpdc/hpdc2016.html#TaoSKWLZKC16</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/hpdc/RoyLS16" mdate="2018-11-06">
+            <author pid="117/9218">Probir Roy</author>
+            <author pid="93/3167-1">Xu Liu 0001</author>
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <title>SMT-Aware Instantaneous Footprint Optimization.</title>
+            <pages>267-279</pages>
+            <year>2016</year>
+            <booktitle>HPDC</booktitle>
+            <ee>https://doi.org/10.1145/2907294.2907308</ee>
+            <crossref>conf/hpdc/2016</crossref>
+            <url>db/conf/hpdc/hpdc2016.html#RoyLS16</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/ics/LiSWKC16" mdate="2018-11-06">
+            <author pid="33/2805">Ang Li</author>
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <author pid="136/3848">Mark Wijtvliet</author>
+            <author pid="29/414">Akash Kumar 0001</author>
+            <author pid="53/6375">Henk Corporaal</author>
+            <title>SFU-Driven Transparent Approximation Acceleration on GPUs.</title>
+            <pages>15:1-15:14</pages>
+            <year>2016</year>
+            <booktitle>ICS</booktitle>
+            <ee>https://doi.org/10.1145/2925426.2926255</ee>
+            <crossref>conf/ics/2016</crossref>
+            <url>db/conf/ics/ics2016.html#LiSWKC16</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/ics/LiHSZ16" mdate="2018-11-06">
+            <author pid="118/8955">Lingda Li</author>
+            <author pid="146/3472">Ari B. Hayes</author>
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <author pid="93/1040">Eddy Z. Zhang</author>
+            <title>Tag-Split Cache for Efficient GPGPU Cache Utilization.</title>
+            <pages>43:1-43:12</pages>
+            <year>2016</year>
+            <booktitle>ICS</booktitle>
+            <ee>https://doi.org/10.1145/2925426.2926253</ee>
+            <crossref>conf/ics/2016</crossref>
+            <url>db/conf/ics/ics2016.html#LiHSZ16</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/ipps/LiSB0CC16" mdate="2017-05-24">
+            <author pid="33/2805">Ang Li</author>
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <author pid="183/4836">Eric Brugel</author>
+            <author pid="29/414">Akash Kumar 0001</author>
+            <author pid="98/5776">Daniel G. Chavarr&#237;a-Miranda</author>
+            <author pid="53/6375">Henk Corporaal</author>
+            <title>X: A Comprehensive Analytic Model for Parallel Machines.</title>
+            <pages>242-252</pages>
+            <year>2016</year>
+            <booktitle>IPDPS</booktitle>
+            <ee>https://doi.org/10.1109/IPDPS.2016.89</ee>
+            <ee>http://doi.ieeecomputersociety.org/10.1109/IPDPS.2016.89</ee>
+            <crossref>conf/ipps/2016</crossref>
+            <url>db/conf/ipps/ipdps2016.html#LiSB0CC16</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/ipps/RountreeS16" mdate="2017-05-24">
+            <author pid="92/266">Barry Rountree</author>
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <title>HPPAC Introduction and Committees.</title>
+            <pages>1089</pages>
+            <year>2016</year>
+            <booktitle>IPDPS Workshops</booktitle>
+            <ee>https://doi.org/10.1109/IPDPSW.2016.240</ee>
+            <ee>http://doi.ieeecomputersociety.org/10.1109/IPDPSW.2016.240</ee>
+            <crossref>conf/ipps/2016w</crossref>
+            <url>db/conf/ipps/ipdps2016w.html#RountreeS16</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/ipps/SongG16" mdate="2017-05-24">
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <author pid="19/6505">Todd Gamblin</author>
+            <title>IPDRM Introduction and Committees.</title>
+            <pages>1726</pages>
+            <year>2016</year>
+            <booktitle>IPDPS Workshops</booktitle>
+            <ee>https://doi.org/10.1109/IPDPSW.2016.255</ee>
+            <ee>http://doi.ieeecomputersociety.org/10.1109/IPDPSW.2016.255</ee>
+            <crossref>conf/ipps/2016w</crossref>
+            <url>db/conf/ipps/ipdps2016w.html#SongG16</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/middleware/HayesLCSZ16" mdate="2016-11-15">
+            <author pid="146/3472">Ari B. Hayes</author>
+            <author pid="118/8955">Lingda Li</author>
+            <author pid="98/5776">Daniel G. Chavarr&#237;a-Miranda</author>
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <author pid="93/1040">Eddy Z. Zhang</author>
+            <title>Orion: A Framework for GPU Occupancy Tuning.</title>
+            <pages>18</pages>
+            <year>2016</year>
+            <booktitle>Middleware</booktitle>
+            <ee>http://dl.acm.org/citation.cfm?id=2988355</ee>
+            <crossref>conf/middleware/2016</crossref>
+            <url>db/conf/middleware/middleware2016.html#HayesLCSZ16</url>
+        </inproceedings>
+    </r>
+    <r>
+        <article publtype="informal" key="journals/corr/LiHHZSS16" mdate="2018-08-13">
+            <author pid="118/8955">Lingda Li</author>
+            <author pid="146/3472">Ari B. Hayes</author>
+            <author pid="180/5440">Stephen A. Hackler</author>
+            <author pid="93/1040">Eddy Z. Zhang</author>
+            <author pid="21/3238">Mario Szegedy</author>
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <title>A Graph-based Model for GPU Caching Problems.</title>
+            <year>2016</year>
+            <volume>abs/1605.02043</volume>
+            <journal>CoRR</journal>
+            <ee type="oa">http://arxiv.org/abs/1605.02043</ee>
+            <url>db/journals/corr/corr1605.html#LiHHZSS16</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/jpdc/YouFSRKMYH15" mdate="2020-02-22">
+            <author pid="33/8167">Yang You</author>
+            <author pid="71/3657">Haohuan Fu</author>
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <author pid="128/1814">Amanda Peters Randles</author>
+            <author pid="61/4750">Darren J. Kerbyson</author>
+            <author pid="21/3063">Andres Marquez</author>
+            <author pid="67/3001">Guangwen Yang</author>
+            <author pid="45/317">Adolfy Hoisie</author>
+            <title>Scaling Support Vector Machines on modern HPC platforms.</title>
+            <pages>16-31</pages>
+            <year>2015</year>
+            <volume>76</volume>
+            <journal>J. Parallel Distributed Comput.</journal>
+            <ee>https://doi.org/10.1016/j.jpdc.2014.09.005</ee>
+            <url>db/journals/jpdc/jpdc76.html#YouFSRKMYH15</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/hpcc/ShresthaMMZSG15" mdate="2017-05-23">
+            <author pid="60/1911">Sunil Shrestha</author>
+            <author pid="47/7029">Joseph B. Manzano</author>
+            <author pid="21/3063">Andr&#232;s M&#225;rquez</author>
+            <author pid="81/2622">St&#233;phane Zuckerman</author>
+            <author pid="23/7512">Shuaiwen Song</author>
+            <author pid="g/GuangRGao">Guang R. Gao</author>
+            <title>Gregarious Data Re-structuring in a Many Core Architecture.</title>
+            <pages>712-720</pages>
+            <year>2015</year>
+            <booktitle>HPCC/CSS/ICESS</booktitle>
+            <ee>https://doi.org/10.1109/HPCC-CSS-ICESS.2015.291</ee>
+            <crossref>conf/hpcc/2015</crossref>
+            <url>db/conf/hpcc/hpcc2015.html#ShresthaMMZSG15</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/ics/LiSDSHZ15" mdate="2018-11-06">
+            <author orcid="0000-0001-7758-0865" pid="66/190-4">Chao Li 0004</author>
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <author pid="147/4962">Hongwen Dai</author>
+            <author pid="03/4794">Albert Sidelnik</author>
+            <author pid="85/525">Siva Kumar Sastry Hari</author>
+            <author pid="91/3111">Huiyang Zhou</author>
+            <title>Locality-Driven Dynamic GPU Cache Bypassing.</title>
+            <pages>67-77</pages>
+            <year>2015</year>
+            <booktitle>ICS</booktitle>
+            <ee>https://doi.org/10.1145/2751205.2751237</ee>
+            <crossref>conf/ics/2015</crossref>
+            <url>db/conf/ics/ics2015.html#LiSDSHZ15</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/ipps/SenguptaASS15" mdate="2017-05-24">
+            <author pid="77/3162">Dipanjan Sengupta</author>
+            <author pid="140/8736">Kapil Agarwal</author>
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <author pid="s/KarstenSchwan">Karsten Schwan</author>
+            <title>GraphReduce: Large-Scale Graph Analytics on Accelerator-Based HPC Systems.</title>
+            <pages>604-609</pages>
+            <year>2015</year>
+            <booktitle>IPDPS Workshops</booktitle>
+            <ee>https://doi.org/10.1109/IPDPSW.2015.16</ee>
+            <ee>http://doi.ieeecomputersociety.org/10.1109/IPDPSW.2015.16</ee>
+            <crossref>conf/ipps/2015w</crossref>
+            <url>db/conf/ipps/ipdps2015w.html#SenguptaASS15</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/ipps/TanSWCGK15" mdate="2017-05-24">
+            <author pid="93/6375">Li Tan</author>
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <author pid="121/1949">Panruo Wu</author>
+            <author pid="66/5474">Zizhong Chen</author>
+            <author pid="89/6869-2">Rong Ge 0002</author>
+            <author pid="61/4750">Darren J. Kerbyson</author>
+            <title>Investigating the Interplay between Energy Efficiency and Resilience in High Performance Computing.</title>
+            <pages>786-796</pages>
+            <year>2015</year>
+            <booktitle>IPDPS</booktitle>
+            <ee>https://doi.org/10.1109/IPDPS.2015.108</ee>
+            <ee>http://doi.ieeecomputersociety.org/10.1109/IPDPS.2015.108</ee>
+            <crossref>conf/ipps/2015</crossref>
+            <url>db/conf/ipps/ipdps2015.html#TanSWCGK15</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sc/SenguptaSAS15" mdate="2018-11-06">
+            <author pid="77/3162">Dipanjan Sengupta</author>
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <author pid="140/8736">Kapil Agarwal</author>
+            <author pid="s/KarstenSchwan">Karsten Schwan</author>
+            <title>GraphReduce: processing large-scale graphs on accelerator-based systems.</title>
+            <pages>28:1-28:12</pages>
+            <year>2015</year>
+            <booktitle>SC</booktitle>
+            <ee>https://doi.org/10.1145/2807591.2807655</ee>
+            <crossref>conf/sc/2015</crossref>
+            <url>db/conf/sc/sc2015.html#SenguptaSAS15</url>
+        </inproceedings>
+    </r>
+    <r>
+        <article key="journals/ijhpca/YouFSDGHY14" mdate="2017-05-26">
+            <author pid="33/8167">Yang You</author>
+            <author pid="71/3657">Haohuan Fu</author>
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <author pid="132/8891">Maryam Mehri Dehnavi</author>
+            <author pid="120/9592">Lin Gan</author>
+            <author pid="65/792">Xiaomeng Huang</author>
+            <author pid="67/3001">Guangwen Yang</author>
+            <title>Evaluating multi-core and many-core architectures through accelerating the three-dimensional Lax-Wendroff correction stencil.</title>
+            <pages>301-318</pages>
+            <year>2014</year>
+            <volume>28</volume>
+            <journal>IJHPCA</journal>
+            <number>3</number>
+            <ee>https://doi.org/10.1177/1094342014524807</ee>
+            <url>db/journals/ijhpca/ijhpca28.html#YouFSDGHY14</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/ppl/LiCSSMMC14" mdate="2017-11-06">
+            <author pid="50/3402-32">Bo Li 0032</author>
+            <author pid="45/6207">Hung-Ching Chang</author>
+            <author pid="23/7512">Shuaiwen Song</author>
+            <author pid="10/3087">Chun-Yi Su</author>
+            <author pid="155/5471">Timmy Meyer</author>
+            <author pid="155/5417">John Mooring</author>
+            <author pid="56/3019">Kirk W. Cameron</author>
+            <title>Extending PowerPack for Profiling and Analysis of High-Performance Accelerator-Based Systems.</title>
+            <year>2014</year>
+            <volume>24</volume>
+            <journal>Parallel Processing Letters</journal>
+            <number>4</number>
+            <ee>https://doi.org/10.1142/S0129626414420018</ee>
+            <url>db/journals/ppl/ppl24.html#LiCSSMMC14</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/icpads/MarquezMSMSJG14" mdate="2017-05-26">
+            <author pid="21/3063">Andres Marquez</author>
+            <author pid="47/7029">Joseph B. Manzano</author>
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <author pid="05/2998">Beno&#238;t Meister</author>
+            <author pid="60/1911">Sunil Shrestha</author>
+            <author pid="162/0944">Thomas St. John</author>
+            <author pid="g/GuangRGao">Guang R. Gao</author>
+            <title>ACDT: Architected Composite Data Types trading-in unfettered data access for improved execution.</title>
+            <pages>289-297</pages>
+            <year>2014</year>
+            <booktitle>ICPADS</booktitle>
+            <ee>https://doi.org/10.1109/PADSW.2014.7097820</ee>
+            <ee>http://doi.ieeecomputersociety.org/10.1109/PADSW.2014.7097820</ee>
+            <crossref>conf/icpads/2014</crossref>
+            <url>db/conf/icpads/icpads2014.html#MarquezMSMSJG14</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/ics/YouSK14" mdate="2018-11-06">
+            <author pid="33/8167">Yang You</author>
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <author pid="61/4750">Darren J. Kerbyson</author>
+            <title>An adaptive cross-architecture combination method for graph traversal.</title>
+            <pages>169</pages>
+            <year>2014</year>
+            <booktitle>ICS</booktitle>
+            <ee>https://doi.org/10.1145/2597652.2600110</ee>
+            <crossref>conf/ics/2014</crossref>
+            <url>db/conf/ics/ics2014.html#YouSK14</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/ipps/YouSFMDBCRY14" mdate="2019-02-12">
+            <author pid="33/8167">Yang You</author>
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <author pid="71/3657">Haohuan Fu</author>
+            <author pid="21/3063">Andres Marquez</author>
+            <author pid="132/8891">Maryam Mehri Dehnavi</author>
+            <author pid="23/6533">Kevin J. Barker</author>
+            <author pid="56/3019">Kirk W. Cameron</author>
+            <author pid="128/1814">Amanda Peters Randles</author>
+            <author pid="67/3001">Guangwen Yang</author>
+            <title>MIC-SVM: Designing a Highly Efficient Support Vector Machine for Advanced Modern Multi-core and Many-Core Architectures.</title>
+            <pages>809-818</pages>
+            <year>2014</year>
+            <booktitle>IPDPS</booktitle>
+            <ee>https://doi.org/10.1109/IPDPS.2014.88</ee>
+            <ee>http://doi.ieeecomputersociety.org/10.1109/IPDPS.2014.88</ee>
+            <crossref>conf/ipps/2014</crossref>
+            <url>db/conf/ipps/ipdps2014.html#YouSFMDBCRY14</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/ipps/LiCSSMMC14" mdate="2017-11-06">
+            <author pid="50/3402-32">Bo Li 0032</author>
+            <author pid="45/6207">Hung-Ching Chang</author>
+            <author pid="23/7512">Shuaiwen Song</author>
+            <author pid="10/3087">Chun-Yi Su</author>
+            <author pid="155/5471">Timmy Meyer</author>
+            <author pid="155/5417">John Mooring</author>
+            <author pid="56/3019">Kirk W. Cameron</author>
+            <title>The Power-Performance Tradeoffs of the Intel Xeon Phi on HPC Applications.</title>
+            <pages>1448-1456</pages>
+            <year>2014</year>
+            <booktitle>IPDPS Workshops</booktitle>
+            <ee>https://doi.org/10.1109/IPDPSW.2014.162</ee>
+            <ee>http://doi.ieeecomputersociety.org/10.1109/IPDPSW.2014.162</ee>
+            <crossref>conf/ipps/2014w</crossref>
+            <url>db/conf/ipps/ipdps2014w.html#LiCSSMMC14</url>
+        </inproceedings>
+    </r>
+    <r>
+        <article key="journals/tjs/VishnuSMBKCB13" mdate="2017-05-28">
+            <author pid="92/2581">Abhinav Vishnu</author>
+            <author pid="23/7512">Shuaiwen Song</author>
+            <author pid="21/3063">Andres Marquez</author>
+            <author pid="23/6533">Kevin J. Barker</author>
+            <author pid="61/4750">Darren J. Kerbyson</author>
+            <author pid="56/3019">Kirk W. Cameron</author>
+            <author pid="70/2491">Pavan Balaji</author>
+            <title>Designing energy efficient communication runtime systems: a view from PGAS models.</title>
+            <pages>691-709</pages>
+            <year>2013</year>
+            <volume>63</volume>
+            <journal>The Journal of Supercomputing</journal>
+            <number>3</number>
+            <ee>https://doi.org/10.1007/s11227-011-0699-9</ee>
+            <url>db/journals/tjs/tjs63.html#VishnuSMBKCB13</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/cluster/LiSBC13" mdate="2017-11-06">
+            <author pid="50/3402-32">Bo Li 0032</author>
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <author pid="71/180">Ivona Bez&#225;kov&#225;</author>
+            <author pid="56/3019">Kirk W. Cameron</author>
+            <title>EDR: An energy-aware runtime load distribution system for data-intensive applications in the cloud.</title>
+            <pages>1-8</pages>
+            <year>2013</year>
+            <booktitle>CLUSTER</booktitle>
+            <ee>https://doi.org/10.1109/CLUSTER.2013.6702674</ee>
+            <ee>http://doi.ieeecomputersociety.org/10.1109/CLUSTER.2013.6702674</ee>
+            <crossref>conf/cluster/2013</crossref>
+            <url>db/conf/cluster/cluster2013.html#LiSBC13</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/ipps/SongSRC13" mdate="2017-05-24">
+            <author pid="23/7512">Shuaiwen Song</author>
+            <author pid="10/3087">Chun-Yi Su</author>
+            <author pid="92/266">Barry Rountree</author>
+            <author pid="56/3019">Kirk W. Cameron</author>
+            <title>A Simplified and Accurate Model of Power-Performance Efficiency on Emergent GPU Architectures.</title>
+            <pages>673-686</pages>
+            <year>2013</year>
+            <booktitle>IPDPS</booktitle>
+            <ee>https://doi.org/10.1109/IPDPS.2013.73</ee>
+            <ee>http://doi.ieeecomputersociety.org/10.1109/IPDPS.2013.73</ee>
+            <crossref>conf/ipps/2013</crossref>
+            <url>db/conf/ipps/ipdps2013.html#SongSRC13</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sc/SongBK13" mdate="2018-11-06">
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <author pid="23/6533">Kevin J. Barker</author>
+            <author pid="61/4750">Darren J. Kerbyson</author>
+            <title>Unified performance and power modeling of scientific workloads.</title>
+            <pages>4:1-4:8</pages>
+            <year>2013</year>
+            <booktitle>E2SC@SC</booktitle>
+            <ee>https://doi.org/10.1145/2536430.2536435</ee>
+            <crossref>conf/sc/2013e2sc</crossref>
+            <url>db/conf/sc/e2sc2013.html#SongBK13</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/IEEEpact/SongC12" mdate="2018-11-06">
+            <author pid="23/7512">Shuaiwen Song</author>
+            <author pid="56/3019">Kirk W. Cameron</author>
+            <title>System-level power-performance efficiency modeling for emergent GPU architectures.</title>
+            <pages>473-474</pages>
+            <year>2012</year>
+            <booktitle>PACT</booktitle>
+            <ee>https://doi.org/10.1145/2370816.2370903</ee>
+            <ee>http://ieeexplore.ieee.org/document/7842980/</ee>
+            <crossref>conf/IEEEpact/2012</crossref>
+            <url>db/conf/IEEEpact/pact2012.html#SongC12</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/mascots/LiSBC12" mdate="2017-11-06">
+            <author pid="50/3402-32">Bo Li 0032</author>
+            <author pid="23/7512">Shuaiwen Song</author>
+            <author pid="71/180">Ivona Bez&#225;kov&#225;</author>
+            <author pid="56/3019">Kirk W. Cameron</author>
+            <title>Energy-Aware Replica Selection for Data-Intensive Services in Cloud.</title>
+            <pages>504-506</pages>
+            <year>2012</year>
+            <booktitle>MASCOTS</booktitle>
+            <ee>https://doi.org/10.1109/MASCOTS.2012.66</ee>
+            <ee>http://doi.ieeecomputersociety.org/10.1109/MASCOTS.2012.66</ee>
+            <crossref>conf/mascots/2012</crossref>
+            <url>db/conf/mascots/mascots2012.html#LiSBC12</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sc/SongSRC12" mdate="2017-05-23">
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <author pid="10/3087">Chun-Yi Su</author>
+            <author pid="92/266">Barry Rountree</author>
+            <author pid="56/3019">Kirk W. Cameron</author>
+            <title>Abstract: Three Steps to Model Power-Performance Efficiency for Emergent GPU-Based Parallel Systems.</title>
+            <pages>1344-1345</pages>
+            <year>2012</year>
+            <booktitle>SC Companion</booktitle>
+            <ee>https://doi.org/10.1109/SC.Companion.2012.177</ee>
+            <ee>http://doi.ieeecomputersociety.org/10.1109/SC.Companion.2012.177</ee>
+            <crossref>conf/sc/2012c</crossref>
+            <url>db/conf/sc/sc2012c.html#SongSRC12</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sc/Song12" mdate="2017-05-23">
+            <author pid="23/7512">Shuaiwen Leon Song</author>
+            <title>Poster: Three Steps to Model Power-Performance Efficiency for Emergent GPU-Based Parallel Systems.</title>
+            <pages>1346</pages>
+            <year>2012</year>
+            <booktitle>SC Companion</booktitle>
+            <ee>https://doi.org/10.1109/SC.Companion.2012.178</ee>
+            <ee>http://doi.ieeecomputersociety.org/10.1109/SC.Companion.2012.178</ee>
+            <crossref>conf/sc/2012c</crossref>
+            <url>db/conf/sc/sc2012c.html#Song12</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/cluster/SongGC11" mdate="2017-05-21">
+            <author pid="23/7512">Shuaiwen Song</author>
+            <author pid="85/502">Matthew Grove</author>
+            <author pid="56/3019">Kirk W. Cameron</author>
+            <title>An ISO-Energy-Efficient Approach to Scalable System Power-Performance Optimization.</title>
+            <pages>262-271</pages>
+            <year>2011</year>
+            <booktitle>CLUSTER</booktitle>
+            <ee>https://doi.org/10.1109/CLUSTER.2011.37</ee>
+            <ee>http://doi.ieeecomputersociety.org/10.1109/CLUSTER.2011.37</ee>
+            <crossref>conf/cluster/2011</crossref>
+            <url>db/conf/cluster/cluster2011.html#SongGC11</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/ipps/SongSGVC11" mdate="2017-05-24">
+            <author pid="23/7512">Shuaiwen Song</author>
+            <author pid="10/3087">Chun-Yi Su</author>
+            <author pid="89/6869-2">Rong Ge 0002</author>
+            <author pid="92/2581">Abhinav Vishnu</author>
+            <author pid="56/3019">Kirk W. Cameron</author>
+            <title>Iso-Energy-Efficiency: An Approach to Power-Constrained Parallel Computation.</title>
+            <pages>128-139</pages>
+            <year>2011</year>
+            <booktitle>IPDPS</booktitle>
+            <ee>https://doi.org/10.1109/IPDPS.2011.22</ee>
+            <ee>http://doi.ieeecomputersociety.org/10.1109/IPDPS.2011.22</ee>
+            <crossref>conf/ipps/2011</crossref>
+            <url>db/conf/ipps/ipdps2011.html#SongSGVC11</url>
+        </inproceedings>
+    </r>
+    <r>
+        <article key="journals/tpds/GeFSCLC10" mdate="2017-09-07">
+            <author pid="89/6869-2">Rong Ge 0002</author>
+            <author pid="87/390">Xizhou Feng</author>
+            <author pid="23/7512">Shuaiwen Song</author>
+            <author pid="45/6207">Hung-Ching Chang</author>
+            <author pid="47/4826-1">Dong Li 0001</author>
+            <author pid="56/3019">Kirk W. Cameron</author>
+            <title>PowerPack: Energy Profiling and Analysis of High-Performance Systems and Applications.</title>
+            <pages>658-671</pages>
+            <year>2010</year>
+            <volume>21</volume>
+            <journal>IEEE Trans. Parallel Distrib. Syst.</journal>
+            <number>5</number>
+            <ee>https://doi.org/10.1109/TPDS.2009.76</ee>
+            <ee>http://doi.ieeecomputersociety.org/10.1109/TPDS.2009.76</ee>
+            <url>db/journals/tpds/tpds21.html#GeFSCLC10</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/greencom/VishnuSMBKCB10" mdate="2017-05-26">
+            <author pid="92/2581">Abhinav Vishnu</author>
+            <author pid="23/7512">Shuaiwen Song</author>
+            <author pid="21/3063">Andres Marquez</author>
+            <author pid="23/6533">Kevin J. Barker</author>
+            <author pid="61/4750">Darren J. Kerbyson</author>
+            <author pid="56/3019">Kirk W. Cameron</author>
+            <author pid="70/2491">Pavan Balaji</author>
+            <title>Designing Energy Efficient Communication Runtime Systems for Data Centric Programming Models.</title>
+            <pages>229-236</pages>
+            <year>2010</year>
+            <booktitle>GreenCom/CPSCom</booktitle>
+            <ee>https://doi.org/10.1109/GreenCom-CPSCom.2010.133</ee>
+            <ee>http://doi.ieeecomputersociety.org/10.1109/GreenCom-CPSCom.2010.133</ee>
+            <crossref>conf/greencom/2010</crossref>
+            <url>db/conf/greencom/greencom2010.html#VishnuSMBKCB10</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/hipc/VishnuDJBS10" mdate="2019-02-07">
+            <author pid="92/2581">Abhinav Vishnu</author>
+            <author orcid="0000-0002-0876-3294" pid="89/1323">Huub J. J. Van Dam</author>
+            <author pid="131/7393">Wibe de Jong</author>
+            <author pid="70/2491">Pavan Balaji</author>
+            <author pid="23/7512">Shuaiwen Song</author>
+            <title>Fault-tolerant communication runtime support for data-centric programming models.</title>
+            <pages>1-9</pages>
+            <year>2010</year>
+            <booktitle>HiPC</booktitle>
+            <ee>https://doi.org/10.1109/HIPC.2010.5713195</ee>
+            <ee>http://doi.ieeecomputersociety.org/10.1109/HIPC.2010.5713195</ee>
+            <crossref>conf/hipc/2010</crossref>
+            <url>db/conf/hipc/hipc2010.html#VishnuDJBS10</url>
+        </inproceedings>
+    </r>
+    <r>
+        <article key="journals/ijhpca/SongGFC09" mdate="2017-05-26">
+            <author pid="23/7512">Shuaiwen Song</author>
+            <author pid="89/6869-2">Rong Ge 0002</author>
+            <author pid="87/390">Xizhou Feng</author>
+            <author pid="56/3019">Kirk W. Cameron</author>
+            <title>Energy Profiling and Analysis of the HPC Challenge Benchmarks.</title>
+            <pages>265-276</pages>
+            <year>2009</year>
+            <volume>23</volume>
+            <journal>IJHPCA</journal>
+            <number>3</number>
+            <ee>https://doi.org/10.1177/1094342009106193</ee>
+            <url>db/journals/ijhpca/ijhpca23.html#SongGFC09</url>
+        </article>
+    </r>
+    <coauthors n="101" nc="1">
+        <co c="0">
+            <na f="a/Agarwal:Kapil" pid="140/8736">Kapil Agarwal</na>
+        </co>
+        <co c="0">
+            <na f="b/Balaji:Pavan" pid="70/2491">Pavan Balaji</na>
+        </co>
+        <co c="0">
+            <na f="b/Barker:Kevin_J=" pid="23/6533">Kevin J. Barker</na>
+        </co>
+        <co c="0">
+            <na f="b/Bates:Natalie_J=" pid="130/7318">Natalie J. Bates</na>
+        </co>
+        <co c="0">
+            <na f="b/Bez=aacute=kov=aacute=:Ivona" pid="71/180">Ivona Bez&#225;kov&#225;</na>
+        </co>
+        <co c="0">
+            <na f="b/Brugel:Eric" pid="183/4836">Eric Brugel</na>
+        </co>
+        <co c="0">
+            <na f="c/Cameron:Kirk_W=" pid="56/3019">Kirk W. Cameron</na>
+        </co>
+        <co c="0">
+            <na f="c/Chang:Hung=Ching" pid="45/6207">Hung-Ching Chang</na>
+        </co>
+        <co c="0">
+            <na f="c/Chavarr=iacute=a=Miranda:Daniel_G=" pid="98/5776">Daniel G. Chavarr&#237;a-Miranda</na>
+        </co>
+        <co c="0">
+            <na f="c/Chen:Jieyang" pid="170/3360">Jieyang Chen</na>
+        </co>
+        <co c="0">
+            <na f="c/Chen:Mingsong" pid="95/573">Mingsong Chen</na>
+        </co>
+        <co c="0">
+            <na f="c/Chen:Zizhong" pid="66/5474">Zizhong Chen</na>
+        </co>
+        <co c="0">
+            <na f="c/Corporaal:Henk" pid="53/6375">Henk Corporaal</na>
+        </co>
+        <co c="0">
+            <na f="d/Dai:Hongwen" pid="147/4962">Hongwen Dai</na>
+        </co>
+        <co c="0">
+            <na f="d/Dam:Huub_J=_J=_Van" pid="89/1323">Huub J. J. Van Dam</na>
+        </co>
+        <co c="0">
+            <na f="d/Dehnavi:Maryam_Mehri" pid="132/8891">Maryam Mehri Dehnavi</na>
+        </co>
+        <co c="0">
+            <na f="f/Feng:Xizhou" pid="87/390">Xizhou Feng</na>
+        </co>
+        <co c="0">
+            <na f="f/Fu:Haohuan" pid="71/3657">Haohuan Fu</na>
+        </co>
+        <co c="0">
+            <na f="f/Fu:Xin" pid="18/2495">Xin Fu</na>
+        </co>
+        <co c="0">
+            <na f="g/Gamblin:Todd" pid="19/6505">Todd Gamblin</na>
+        </co>
+        <co c="0">
+            <na f="g/Gan:Lin" pid="120/9592">Lin Gan</na>
+        </co>
+        <co c="0">
+            <na f="g/Gao:Guang_R=" pid="g/GuangRGao">Guang R. Gao</na>
+        </co>
+        <co c="0">
+            <na f="g/Ge_0002:Rong" pid="89/6869-2">Rong Ge 0002</na>
+        </co>
+        <co c="0">
+            <na f="g/Geng:Tong" pid="188/5531">Tong Geng</na>
+        </co>
+        <co c="0">
+            <na f="g/Grove:Matthew" pid="85/502">Matthew Grove</na>
+        </co>
+        <co c="0">
+            <na f="h/Hackler:Stephen_A=" pid="180/5440">Stephen A. Hackler</na>
+        </co>
+        <co c="0">
+            <na f="h/Hari:Siva_Kumar_Sastry" pid="85/525">Siva Kumar Sastry Hari</na>
+        </co>
+        <co c="0">
+            <na f="h/Hayes:Ari_B=" pid="146/3472">Ari B. Hayes</na>
+        </co>
+        <co c="0">
+            <na f="h/Herbordt:Martin_C=" pid="87/324">Martin C. Herbordt</na>
+        </co>
+        <co c="0">
+            <na f="h/Hoefler:Torsten" pid="16/3869">Torsten Hoefler</na>
+        </co>
+        <co c="0">
+            <na f="h/Hoisie:Adolfy" pid="45/317">Adolfy Hoisie</na>
+        </co>
+        <co c="0">
+            <na f="h/Hou:Kaixi" pid="11/10310">Kaixi Hou</na>
+        </co>
+        <co c="0">
+            <na f="h/Huang:Xiaomeng" pid="65/792">Xiaomeng Huang</na>
+        </co>
+        <co c="0">
+            <na f="j/Jiang:Chuntao" pid="83/7802">Chuntao Jiang</na>
+        </co>
+        <co c="0">
+            <na f="j/John:Thomas_St=" pid="162/0944">Thomas St. John</na>
+        </co>
+        <co c="0" n="2">
+            <na f="j/Jong:Wibe_A=_de" pid="131/7393">Wibe A. de Jong</na>
+            <na>Wibe de Jong</na>
+        </co>
+        <co c="0">
+            <na f="k/Kerbyson:Darren_J=" pid="61/4750">Darren J. Kerbyson</na>
+        </co>
+        <co c="0">
+            <na f="k/Kraska:Tim" pid="26/6037">Tim Kraska</na>
+        </co>
+        <co c="0">
+            <na f="k/Krishnamoorthy:Sriram" pid="k/SriramKrishnamoorthy">Sriram Krishnamoorthy</na>
+        </co>
+        <co c="0">
+            <na f="k/Kristensen:Mads_Ruben_Burgdorff" pid="88/7434">Mads Ruben Burgdorff Kristensen</na>
+        </co>
+        <co c="0">
+            <na f="k/Kumar_0001:Akash" pid="29/414">Akash Kumar 0001</na>
+        </co>
+        <co c="0">
+            <na f="l/Li:Ang" pid="33/2805">Ang Li</na>
+        </co>
+        <co c="0">
+            <na f="l/Li_0032:Bo" pid="50/3402-32">Bo Li 0032</na>
+        </co>
+        <co c="0">
+            <na f="l/Li_0004:Chao" pid="66/190-4">Chao Li 0004</na>
+        </co>
+        <co c="0">
+            <na f="l/Li_0001:Dong" pid="47/4826-1">Dong Li 0001</na>
+        </co>
+        <co c="0">
+            <na f="l/Li:Jiajia" pid="89/9032">Jiajia Li</na>
+        </co>
+        <co c="0">
+            <na f="l/Li:Lingda" pid="118/8955">Lingda Li</na>
+        </co>
+        <co c="0">
+            <na f="l/Liang:Xin" pid="31/7475">Xin Liang</na>
+        </co>
+        <co c="0">
+            <na f="l/Liu_0002:Weifeng" pid="23/1112-2">Weifeng Liu 0002</na>
+        </co>
+        <co c="0">
+            <na f="l/Liu_0001:Xu" pid="93/3167-1">Xu Liu 0001</na>
+        </co>
+        <co c="0">
+            <na f="m/Manzano:Joseph_B=" pid="47/7029">Joseph B. Manzano</na>
+        </co>
+        <co c="0" n="2">
+            <na f="m/M=aacute=rquez:Andr=egrave=s" pid="21/3063">Andr&#232;s M&#225;rquez</na>
+            <na>Andres Marquez</na>
+        </co>
+        <co c="0">
+            <na f="m/Meister:Beno=icirc=t" pid="05/2998">Beno&#238;t Meister</na>
+        </co>
+        <co c="0">
+            <na f="m/Meyer:Timmy" pid="155/5471">Timmy Meyer</na>
+        </co>
+        <co c="0">
+            <na f="m/Mooring:John" pid="155/5417">John Mooring</na>
+        </co>
+        <co c="0">
+            <na f="q/Qiu:Junqiao" pid="185/0237">Junqiao Qiu</na>
+        </co>
+        <co c="0" n="2">
+            <na f="r/Randles:Amanda" pid="128/1814">Amanda Randles</na>
+            <na>Amanda Peters Randles</na>
+        </co>
+        <co c="0">
+            <na f="r/Rivera:Cody" pid="258/3143">Cody Rivera</na>
+        </co>
+        <co c="0">
+            <na f="r/Rountree:Barry" pid="92/266">Barry Rountree</na>
+        </co>
+        <co c="0">
+            <na f="r/Roy:Probir" pid="117/9218">Probir Roy</na>
+        </co>
+        <co c="0">
+            <na f="s/Schwan:Karsten" pid="s/KarstenSchwan">Karsten Schwan</na>
+        </co>
+        <co c="0">
+            <na f="s/Sengupta:Dipanjan" pid="77/3162">Dipanjan Sengupta</na>
+        </co>
+        <co c="0">
+            <na f="s/Shen:Du" pid="165/9650">Du Shen</na>
+        </co>
+        <co c="0">
+            <na f="s/Shrestha:Sunil" pid="60/1911">Sunil Shrestha</na>
+        </co>
+        <co c="0">
+            <na f="s/Sidelnik:Albert" pid="03/4794">Albert Sidelnik</na>
+        </co>
+        <co c="0">
+            <na f="s/Su:Chun=Yi" pid="10/3087">Chun-Yi Su</na>
+        </co>
+        <co c="0">
+            <na f="s/Sun:Xian=He" pid="s/XHSun">Xian-He Sun</na>
+        </co>
+        <co c="0">
+            <na f="s/Szegedy:Mario" pid="21/3238">Mario Szegedy</na>
+        </co>
+        <co c="0">
+            <na f="t/Tallent:Nathan_R=" pid="54/5039">Nathan R. Tallent</na>
+        </co>
+        <co c="0">
+            <na f="t/Tan:Jingweijia" pid="118/8945">Jingweijia Tan</na>
+        </co>
+        <co c="0">
+            <na f="t/Tan:Li" pid="93/6375">Li Tan</na>
+        </co>
+        <co c="0">
+            <na f="t/Tao:Dingwen" pid="162/0802">Dingwen Tao</na>
+        </co>
+        <co c="0">
+            <na f="v/Vinter:Brian" pid="30/2521">Brian Vinter</na>
+        </co>
+        <co c="0">
+            <na f="v/Vishnu:Abhinav" pid="92/2581">Abhinav Vishnu</na>
+        </co>
+        <co c="0">
+            <na f="v/Vuduc:Richard_W=" pid="v/RVuduc">Richard W. Vuduc</na>
+        </co>
+        <co c="0">
+            <na f="w/Wang:Hao" pid="181/2812">Hao Wang</na>
+        </co>
+        <co c="0">
+            <na f="w/Wang_0055:Jing" pid="02/736-55">Jing Wang 0055</na>
+        </co>
+        <co c="0">
+            <na f="w/Wang:Linnan" pid="169/9748">Linnan Wang</na>
+        </co>
+        <co c="0">
+            <na f="w/Wang:Tianqi" pid="77/6747">Tianqi Wang</na>
+        </co>
+        <co c="0">
+            <na f="w/Wijtvliet:Mark" pid="136/3848">Mark Wijtvliet</na>
+        </co>
+        <co c="0">
+            <na f="w/Wu_0002:Bo" pid="47/6534-2">Bo Wu 0002</na>
+        </co>
+        <co c="0">
+            <na f="w/Wu:Chunshu" pid="243/1631">Chunshu Wu</na>
+        </co>
+        <co c="0">
+            <na f="w/Wu:Panruo" pid="121/1949">Panruo Wu</na>
+        </co>
+        <co c="0">
+            <na f="w/Wu_0016:Wei" pid="95/6985-16">Wei Wu 0016</na>
+        </co>
+        <co c="0">
+            <na f="x/Xie:Chenhao" pid="175/5479">Chenhao Xie</na>
+        </co>
+        <co c="0">
+            <na f="x/Xiong:Nan" pid="206/0901">Nan Xiong</na>
+        </co>
+        <co c="0">
+            <na f="x/Xu:Zenglin" pid="68/1538">Zenglin Xu</na>
+        </co>
+        <co c="0">
+            <na f="y/Yan:Kaige" pid="24/10405">Kaige Yan</na>
+        </co>
+        <co c="0">
+            <na f="y/Yang:Chen" pid="01/2478">Chen Yang</na>
+        </co>
+        <co c="0">
+            <na f="y/Yang:Guangwen" pid="67/3001">Guangwen Yang</na>
+        </co>
+        <co c="0">
+            <na f="y/Ye:Jinmian" pid="190/7150">Jinmian Ye</na>
+        </co>
+        <co c="0">
+            <na f="y/You:Yang" pid="33/8167">Yang You</na>
+        </co>
+        <co c="0">
+            <na f="z/Zhang:Eddy_Z=" pid="93/1040">Eddy Z. Zhang</na>
+        </co>
+        <co c="0">
+            <na f="z/Zhang:Ning" pid="181/2597">Ning Zhang</na>
+        </co>
+        <co c="0">
+            <na f="z/Zhang:Weigong" pid="90/7721">Weigong Zhang</na>
+        </co>
+        <co c="0">
+            <na f="z/Zhang:Xingyao" pid="173/9816">Xingyao Zhang</na>
+        </co>
+        <co c="0">
+            <na f="z/Zhao:Wenfeng" pid="28/727">Wenfeng Zhao</na>
+        </co>
+        <co c="0">
+            <na f="z/Zhao:Yiyang" pid="33/3791">Yiyang Zhao</na>
+        </co>
+        <co c="0">
+            <na f="z/Zhao_0001:Zhijia" pid="40/6732">Zhijia Zhao 0001</na>
+        </co>
+        <co c="0">
+            <na f="z/Zhou:Huiyang" pid="91/3111">Huiyang Zhou</na>
+        </co>
+        <co c="0">
+            <na f="z/Zuckerman:St=eacute=phane" pid="81/2622">St&#233;phane Zuckerman</na>
+        </co>
+    </coauthors>
+</dblpperson>
