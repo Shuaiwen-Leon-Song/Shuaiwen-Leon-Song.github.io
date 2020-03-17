@@ -32,9 +32,26 @@
 		ga('send', 'pageview');
 
 	</script>
+
+	<style>
+        a {
+            text-decoration: none;
+            color: #f8003e;
+        }
+	</style>
 </head>
 
 <body>
+	<div id="SITE_BACKGROUND_current_customBgImgbh5"
+        style="top: 0px; background-color: rgb(255, 255, 255); position: fixed; width: 100%; height: 100%;"
+        data-position="fixed" data-align="center" data-fitting="fill" class="siteBackgroundcurrent">
+        <div id="SITE_BACKGROUND_currentImage_customBgImgbh5"
+            style="position: absolute; top: 0px; width: 100%; opacity: 0.4; object-position: 50% 50%; background-size: cover; background-position: center center; background-repeat: no-repeat; height: 100%; background-image: url(images/usyd4.jpg);"
+            data-type="bgimage" data-height="100%" class="siteBackgroundcurrentImage"
+            data-image-css="{&quot;backgroundSize&quot;:&quot;cover&quot;,&quot;backgroundPosition&quot;:&quot;center center&quot;,&quot;backgroundRepeat&quot;:&quot;no-repeat&quot;,&quot;height&quot;:&quot;100%&quot;}">
+        </div>
+    </div>
+	
 	<div class="container">
 		<!-- Static navbar -->
 		<div class="navbar navbar-default" role="navigation">
@@ -50,8 +67,8 @@
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav">
 					<li>
-						<a href="publications.html">Publications</a>
-					</li>
+                        <a href="blog.html">Blog</a>
+                    </li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					<li>
@@ -91,7 +108,7 @@
 							<p><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i><br />Room 438, School of
 								Computing<br>The University of Sydney<br>Camperdown NSW 2006, Australia</p>
 							<p><i class="fa fa-envelope fa-lg" aria-hidden="true"></i> <br> shuaiwen.song |at| sydney |
-								dot | edu | dot | au<br> s562673 |at| vt |dot| edu </p>
+								dot | edu | dot | au</p>
 							<p><i class="fa fa-phone fa-lg" aria-hidden="true"></i><br /> +61 2 8627 9613 </p>
 						</div>
 					</div>
@@ -99,7 +116,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-3">
+			<div class="col-md-3" style="overflow-y: scroll; height:1000px;">
 				<h3>Recent News</h3>
 				<p>
 					2019/11/1, I am currently serving on several PCs including ICDCS'20, HPDC'20, PPoPP'20 and ISCA'20 ERC. I am also serving as area chair for ICPP'20 for performance. Please submit your best work !~<br /><br />
@@ -150,7 +167,6 @@
 				<div class="row">
 					<hr />
 					<div class="col-md-12">
-
 						<h3>Research Interests<br /></h3>
 						<ul>
 							<li>Hardware-Software System Co-design</li> 
@@ -158,6 +174,19 @@
 							<li>SystemML</li>
 							<li>Designing future edge+cloud VR system to enable true immersive experience</li>
 							<li>Quantum Computing Architecture Design</li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="row">
+					<hr />
+					<div class="col-md-12">
+						<h3>Representative Publications<br /></h3>
+						<ul>
+							<li><a href="https://arxiv.org/pdf/1911.03451.pdf">"Enabling Highly Efficient Capsule Networks Processing Through A PIM-Based Architecture Design."</a>&nbsp;Xingyao Zhang, Shuaiwen Leon Song, Chenhao Xie, Xin Fu.<a href="https://www.hpca-conf.org/2020/">&nbsp;In HPCA 2020</a>.</li> 
+							<li><a href="http://www.bu.edu/caadlab/SC20B.pdf">"BSTC: A Novel Binarized Soft Tensor Core Design for Accelerating Bit-Based Approximated Neural Nets."</a>&nbsp; Ang Li, Tong Geng, Tianqi Wang, Martin Herbordt, Shuaiwen Leon Song, Kevin Barker<a href="https://sc19.supercomputing.org/">&nbsp;In SC 2019</a>.</li>
+							<li><a href="https://arxiv.org/pdf/2001.03537">"OO-VR: NUMA Friendly Object-Oriented VR Rendering Framework For Future NUMA-Based Multi-GPU Systems."</a>&nbsp;Chenhao Xie, Xin Fu, and Shuaiwen Leon Song<a href="https://iscaconf.org/isca2019/index.html">&nbsp;In ISCA 2020</a>.</li> 
+							<li><a href="https://arxiv.org/pdf/2001.03537.pdf">"PIM-VR: Erasing Motion Anomalies In Highly-Interactive Virtual Reality World With Customized Memory Cube."</a>&nbsp;Chenhao Xie, Ang Li, Xin Fu, Shuaiwen Leon Song<a href="https://www.sigarch.org/call-participation/hpca-2019/">&nbsp;In HPCA 2019</a>.</li> 
 						</ul>
 					</div>
 				</div>
@@ -253,36 +282,6 @@
 				<div class="row">
 					<hr />
 					<div class="col-md-12">
-						<h3>Software (release in progress)<br /></h3>
-						<ul>
-							<li>PowerPack 2.0 [TPDS'10]</li>
-							<li>GraphReduce [SC'15]</li>
-							<li>EvoGraph [ISC'17]</li>
-							<li>Highly scalable BLAS on multi-GPU system: https://github.com/HPDA-2018-2019/Sparse-BLAS</li>
-							<li>CUDAAdvisor--- LLVM-based runtime profiling for modern GPUs [CGO'18]:  https://github. com/sderek/CUDAAdvisor.git</li>
-							<li>CCProf--- Lightweight Detection of Cache Conflicts [CGO'18]: https://github.com/proywm/CCProf</li>
-							<li>SuperNeurons [PPoPP'18]: https://github.com/linnanwang/superneurons-release</li>
-							<li>Tartan Multi-GPU benchmark [IISWC'19]: https://github.com/uuudown/Tartan</li>
-						</ul>
-					</div>
-				</div>
-
-				<div class="row">
-					<hr />
-					<div class="col-md-12">
-						<h3>Current Major Projects<br /></h3>
-						<ul>
-							<li>DOE Center for Advanced Technology Evaluation (HPC system architecture research)</li>
-							<li>Deep Learning Initiative </li>
-							<li>High Performance Data Analytics (HPDA)</li>
-							<li>PNNL Computing Initiative (DMC)</li>
-						</ul>
-					</div>
-				</div>
-
-				<div class="row">
-					<hr />
-					<div class="col-md-12">
 						<h3>Publicity<br /></h3>
 						<ul>
 							<li>DOE ASCR research highlight on on-package memory impact on scientific applications:  https://science.energy.gov/ascr/highlights/2018/ascr-2018-03-d/</li>
@@ -301,6 +300,23 @@
 							<li>InsideHPC: "PNNL looks at undervolting to meet exascale goals", written by Rich Bruecker, president of insideHPC: http://insidehpc.com/2015/05/pnnl-looks-at-undervolting-to-meet-exascale-goals/</li>
 							<li>HPC Wire Top Feature Article: "Tackling the Power and Energy wall for Future HPC Systems", http://www.hpcwire.com/2013/12/17/tackling-power-energy-wall-future-hpc-systems/, Dec, 2013.</li>
 						</ul>
+					</div>
+				</div>
+
+				<div class="row">
+					<hr />
+					<div class="col-md-12">
+						<h3>Sponsors and Collaborators<br /></h3>
+						<img src="images/nvidia.png" alt="Nvidia" style="width:200px;">
+						<img src="images/intel.png" alt="Intel" style="width:200px;">
+						<img src="images/microsoft.jpg" alt="MSFT" style="width:200px;">
+						<img src="images/DepartmentofEnergy.png" alt="DoE" style="width:200px;">
+						<img src="images/DoEOfficeOfScience.png" alt="DoE Office of Science" style="width:200px;">
+						<img src="images/pnnl.png" alt="PNNL" style="width:200px;">
+						<img src="images/UW.png" alt="UW" style="width:200px;">
+						<img src="images/NanoInstitute.png" alt="Sydney Nano instituten" style="width:200px;">
+						<img src="images/DoD.png" alt="Department of Defense" style="width:200px;">
+						<img src="images/DARPA.jpg" alt="DARPA" style="width:200px;">
 					</div>
 				</div>
 			</div>
