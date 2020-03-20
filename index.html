@@ -37,8 +37,19 @@
         body {
 			font-size: 15px;
 			font-weight: 500;
-        }
+		}
+
+		#mapid { height: 400px; }
 	</style>
+
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+	integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+	crossorigin=""/>
+
+	<!-- Make sure you put this AFTER Leaflet's CSS -->
+	<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+	integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+	crossorigin=""></script>
 </head>
 
 <body>
@@ -188,11 +199,17 @@
 					<hr />
 					<div class="col-md-12">
 						<h3>Representative Publications<br /></h3>
-						<ul>
-							<li><a href="https://arxiv.org/pdf/1911.03451.pdf">"Enabling Highly Efficient Capsule Networks Processing Through A PIM-Based Architecture Design."</a>&nbsp;Xingyao Zhang, Shuaiwen Leon Song, Chenhao Xie, Xin Fu.<a href="https://www.hpca-conf.org/2020/">&nbsp;In HPCA 2020</a>.</li> 
-							<li><a href="https://dl.acm.org/doi/10.1145/3295500.3356169">"BSTC: A Novel Binarized Soft Tensor Core Design for Accelerating Bit-Based Approximated Neural Nets."</a>&nbsp; Ang Li, Tong Geng, Tianqi Wang, Martin Herbordt, Shuaiwen Leon Song, Kevin Barker.<a href="https://sc19.supercomputing.org/">&nbsp;In SC 2019</a>.</li>
-							<li><a href="https://dl.acm.org/doi/abs/10.1145/3307650.3322247">"OO-VR: NUMA Friendly Object-Oriented VR Rendering Framework For Future NUMA-Based Multi-GPU Systems."</a>&nbsp;Chenhao Xie, Xin Fu, and Shuaiwen Leon Song.<a href="https://iscaconf.org/isca2019/index.html">&nbsp;In ISCA 2020</a>.</li> 
-							<li><a href="https://ieeexplore.ieee.org/abstract/document/8675230/">"PIM-VR: Erasing Motion Anomalies In Highly-Interactive Virtual Reality World With Customized Memory Cube."</a>&nbsp;Chenhao Xie, Ang Li, Xin Fu, Shuaiwen Leon Song.<a href="https://www.sigarch.org/call-participation/hpca-2019/">&nbsp;In HPCA 2019</a>.</li> 
+						<ul>						
+							<li><a href="https://doi.org/10.1145/3295500.3356169">"BSTC: a novel binarized-soft-tensor-core design for accelerating bit-based approximated neural nets."</a>&nbsp;Ang Li, Tong Geng, Tianqi Wang, Martin C. Herbordt, <b>Shuaiwen Leon Song</b>, Kevin J. Barker.&nbsp;In <a href="https://dl.acm.org/doi/proceedings/10.1145/3295500">Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis (SC '19)</a>.&nbsp;<a href="">Viedo</a></li>
+							<li><a href="https://doi.org/10.1109/HPCA.2019.00013">"PIM-VR: Erasing Motion Anomalies In Highly-Interactive Virtual Reality World with Customized Memory Cube."</a>&nbsp;Chenhao Xie, Xingyao Zhang, Ang Li, Xin Fu, <b>Shuaiwen Song</b>.&nbsp;In <a href="https://ieeexplore.ieee.org/xpl/conhome/8666628/proceeding"> 2019 IEEE International Symposium on High Performance Computer Architecture (HPCA)</a>.&nbsp;<a href="">Viedo</a></li>
+							<li><a href="https://doi.org/10.1145/3307650.3322247">"OO-VR: NUMA friendly object-oriented VR rendering framework for future NUMA-based multi-GPU systems."</a>&nbsp;Chenhao Xie, Xin Fu, Mingsong Chen, <b>Shuaiwen Leon Song</b>.&nbsp;In <a href="https://dl.acm.org/doi/proceedings/10.1145/3307650"> Proceedings of the 46th International Symposium on Computer Architecture (ISCA '19)</a>.&nbsp;<a href="">Viedo</a></li>
+							<li><a href="https://doi.org/10.1145/3178487.3178491">"Superneurons: dynamic GPU memory management for training deep neural networks."</a>&nbsp;Linnan Wang, Jinmian Ye, Yiyang Zhao, Wei Wu 0016, Ang Li, <b>Shuaiwen Leon Song</b>, Zenglin Xu, Tim Kraska.&nbsp;In <a href="https://dl.acm.org/doi/proceedings/10.1145/3178487"> Proceedings of the 23rd ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming (PPoPP '18)</a>.&nbsp;<a href="">Viedo</a></li>
+							<li><a href="https://doi.org/10.1109/HPCA.2018.00039">"Perception-Oriented 3D Rendering Approximation for Modern Graphics Processors."</a>&nbsp;Chenhao Xie, Xin Fu, <b>Shuaiwen Song</b>.&nbsp;In <a href="https://ieeexplore.ieee.org/xpl/conhome/8326505/proceeding"> 2018 IEEE International Symposium on High Performance Computer Architecture (HPCA)</a>.&nbsp;<a href="">Viedo</a></li>
+							<li><b>[Best paper runner-ups]&nbsp;</b><a href="https://doi.org/10.1145/3126908.3126931">"Exploring and analyzing the real impact of modern on-package memory on HPC scientific kernels."</a>&nbsp;Ang Li, Weifeng Liu 0002, Mads Ruben Burgdorff Kristensen, Brian Vinter, Hao Wang, Kaixi Hou, Andres Marquez, <b>Shuaiwen Leon Song</b>.&nbsp;In <a href="https://dl.acm.org/doi/proceedings/10.1145/3126908"> Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis (SC '17)</a>.&nbsp;<a href="">Viedo</a></li>
+							<li><a href="https://doi.org/10.1145/3123939.3123944">"BVF: enabling significant on-chip power savings via bit-value-favor for throughput processors."</a>&nbsp;Ang Li, Wenfeng Zhao, <b>Shuaiwen Leon Song</b>.&nbsp;In <a href="https://dl.acm.org/doi/proceedings/10.1145/3123939"> Proceedings of the 50th Annual IEEE/ACM International Symposium on Microarchitecture (MICRO '17)</a>.&nbsp;<a href="">Viedo</a></li>
+							<li><a href="https://doi.org/10.1145/3037697.3037709">"Locality-Aware CTA Clustering for Modern GPUs."</a>&nbsp;Ang Li, <b>Shuaiwen Leon Song</b>, Weifeng Liu 0002, Xu Liu 0001, Akash Kumar 0001, Henk Corporaal.&nbsp;In <a href="https://dl.acm.org/doi/proceedings/10.1145/3037697"> Proceedings of the Twenty-Second International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS '17)</a>.&nbsp;<a href="">Viedo</a></li>
+							<li><a href="https://doi.org/10.1109/HPCA.2017.37">"Processing-in-Memory Enabled Graphics Processors for 3D Rendering."</a>&nbsp;Chenhao Xie, <b>Shuaiwen Leon Song</b>, Jing Wang 0055, Weigong Zhang, Xin Fu.&nbsp;In <a href="https://ieeexplore.ieee.org/xpl/conhome/7920262/proceeding">n 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA)</a>.&nbsp;<a href="">Viedo</a></li>
+							<li><b>[Best paper runner-ups]&nbsp;</b><a href="https://doi.org/10.1145/2807591.2807655">"GraphReduce: processing large-scale graphs on accelerator-based systems."</a>&nbsp;Dipanjan Sengupta, <b>Shuaiwen Leon Song</b>, Kapil Agarwal, Karsten Schwan.&nbsp;In <a href="https://dl.acm.org/doi/proceedings/10.1145/2807591"> Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis (SC '15)</a>.&nbsp;<a href="">Viedo</a></li>
 						</ul>
 					</div>
 				</div>
@@ -306,10 +323,80 @@
 				<div class="row">
 					<hr />
 					<div class="col-md-12">
+						<h3>Publications<br /></h3>
+						<ul>
+							<li><a href="https://doi.org/10.1109/TPDS.2019.2928289">"Evaluating Modern GPU Interconnect: PCIe, NVLink, NV-SLI, NVSwitch and GPUDirect."</a>&nbsp;Ang Li, <b>Shuaiwen Leon Song</b>, Jieyang Chen, Jiajia Li, Xu Liu 0001, Nathan R. Tallent, Kevin J. Barker.&nbsp;In<a href="https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8935555"> IEEE Transactions on Parallel and Distributed Systems 2020</a>.</li>
+							<li><a href="https://doi.org/10.1109/ASAP.2019.00-43">"LP-BNN: Ultra-low-Latency BNN Inference with Layer Parallelism."</a>&nbsp;Tong Geng, Tianqi Wang, Chunshu Wu, Chen Yang, <b>Shuaiwen Leon Song</b>, Ang Li, Martin C. Herbordt.&nbsp;In<a href="https://ieeexplore.ieee.org/xpl/conhome/8812310/proceeding"> IEEE International Conference on Application-specific Systems, Architectures and Processors (ASAP '19)</a>.</li>
+							<li><a href="https://doi.org/10.23919/DATE.2019.8714911">"LoSCache: Leveraging Locality Similarity to Build Energy-Efficient GPU L2 Cache."</a>&nbsp;Jingweijia Tan, Kaige Yan, <b>Shuaiwen Leon Song</b>, Xin Fu.&nbsp;In<a href="https://ieeexplore.ieee.org/xpl/conhome/8704855/proceeding"> 2019 Design, Automation & Test in Europe Conference & Exhibition (DATE)</a>.</li>
+							<li><a href="https://doi.org/10.1109/HPCA.2019.00013">"PIM-VR: Erasing Motion Anomalies In Highly-Interactive Virtual Reality World with Customized Memory Cube."</a>&nbsp;Chenhao Xie, Xingyao Zhang, Ang Li, Xin Fu, <b>Shuaiwen Song</b>.&nbsp;In<a href="https://ieeexplore.ieee.org/xpl/conhome/8666628/proceeding"> 2019 IEEE International Symposium on High Performance Computer Architecture (HPCA)</a>.</li>
+							<li><a href="https://doi.org/10.1145/3307650.3322247">"OO-VR: NUMA friendly object-oriented VR rendering framework for future NUMA-based multi-GPU systems."</a>&nbsp;Chenhao Xie, Xin Fu, Mingsong Chen, <b>Shuaiwen Leon Song</b>.&nbsp;In<a href="https://dl.acm.org/doi/proceedings/10.1145/3307650"> Proceedings of the 46th International Symposium on Computer Architecture (ISCA '19)</a>.</li>
+							<li><a href="https://doi.org/10.1145/3295500.3356169">"BSTC: a novel binarized-soft-tensor-core design for accelerating bit-based approximated neural nets."</a>&nbsp;Ang Li, Tong Geng, Tianqi Wang, Martin C. Herbordt, <b>Shuaiwen Leon Song</b>, Kevin J. Barker.&nbsp;In<a href="https://dl.acm.org/doi/proceedings/10.1145/3295500"> Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis (SC '19)</a>.</li>
+							<li><a href="https://doi.org/10.1145/3199605">"NUMA-Caffe: NUMA-Aware Deep Learning Neural Networks."</a>&nbsp;Probir Roy, <b>Shuaiwen Leon Song</b>, Sriram Krishnamoorthy, Abhinav Vishnu, Dipanjan Sengupta, Xu Liu 0001.&nbsp;In<a href="https://dl.acm.org/journal/taco"> Transactions on Architecture and Code Optimization</a>.</li>
+							<li><a href="https://doi.org/10.1145/3168819">"Lightweight detection of cache conflicts."</a>&nbsp;Probir Roy, <b>Shuaiwen Leon Song</b>, Sriram Krishnamoorthy, Xu Liu 0001.&nbsp;In<a href="https://dl.acm.org/doi/proceedings/10.1145/3179541"> Proceedings of the 2018 International Symposium on Code Generation and Optimization (CGO '18)</a>.</li>
+							<li><a href="https://doi.org/10.1145/3168831">"CUDAAdvisor: LLVM-based runtime profiling for modern GPUs."</a>&nbsp;Du Shen, <b>Shuaiwen Leon Song</b>, Ang Li, Xu Liu 0001.&nbsp;In<a href="https://dl.acm.org/doi/proceedings/10.1145/3179541"> Proceedings of the 2018 International Symposium on Code Generation and Optimization (CGO '18)</a>.</li>
+							<li><a href="https://doi.org/10.1109/HPCA.2018.00039">"Perception-Oriented 3D Rendering Approximation for Modern Graphics Processors."</a>&nbsp;Chenhao Xie, Xin Fu, <b>Shuaiwen Song</b>.&nbsp;In<a href="https://ieeexplore.ieee.org/xpl/conhome/8326505/proceeding"> 2018 IEEE International Symposium on High Performance Computer Architecture (HPCA)</a>.</li>
+							<li><a href="https://doi.org/10.1145/3205289.3205294">"Warp-Consolidation: A Novel Execution Model for GPUs."</a>&nbsp;Ang Li, Weifeng Liu 0002, Linnan Wang, Kevin J. Barker, <b>Shuaiwen Leon Song</b>.&nbsp;In<a href="https://dl.acm.org/doi/proceedings/10.1145/3205289"> Proceedings of the 2018 International Conference on Supercomputing (ICS '18)</a>.</li>
+							<li><a href="https://doi.org/10.1109/IISWC.2018.8573483">"Tartan: Evaluating Modern GPU Interconnect via a Multi-GPU Benchmark Suite."</a>&nbsp;Ang Li, <b>Shuaiwen Leon Song</b>, Jieyang Chen, Xu Liu 0001, Nathan R. Tallent, Kevin J. Barker.&nbsp;In<a href="https://ieeexplore.ieee.org/xpl/conhome/8554060/proceeding"> 2018 IEEE International Symposium on Workload Characterization (IISWC '18)</a>.</li>
+							<li><a href="https://doi.org/10.1109/IPDPSW.2018.00108">"Introduction to HPPAC 2018."</a>&nbsp;<b>Shuaiwen Leon Song</b>, Natalie J. Bates, Ang Li.&nbsp;In<a href="https://ieeexplore.ieee.org/xpl/conhome/8424927/proceeding"> 2018 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW)</a>.</li>
+							<li><a href="https://doi.org/10.1145/3178487.3178491">"Superneurons: dynamic GPU memory management for training deep neural networks."</a>&nbsp;Linnan Wang, Jinmian Ye, Yiyang Zhao, Wei Wu 0016, Ang Li, <b>Shuaiwen Leon Song</b>, Zenglin Xu, Tim Kraska.&nbsp;In<a href="https://dl.acm.org/doi/proceedings/10.1145/3178487"> Proceedings of the 23rd ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming (PPoPP '18)</a>.</li>
+							<li><a href="https://doi.org/10.1145/3037697.3037709">"Locality-Aware CTA Clustering for Modern GPUs."</a>&nbsp;Ang Li, <b>Shuaiwen Leon Song</b>, Weifeng Liu 0002, Xu Liu 0001, Akash Kumar 0001, Henk Corporaal.&nbsp;In<a href="https://dl.acm.org/doi/proceedings/10.1145/3037697"> Proceedings of the Twenty-Second International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS '17)</a>.</li>
+							<li><a href="https://doi.org/10.1109/HPCA.2017.37">"Processing-in-Memory Enabled Graphics Processors for 3D Rendering."</a>&nbsp;Chenhao Xie, <b>Shuaiwen Leon Song</b>, Jing Wang 0055, Weigong Zhang, Xin Fu.&nbsp;In<a href="https://ieeexplore.ieee.org/xpl/conhome/7920262/proceeding"> 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA)</a>.</li>
+							<li><a href="https://doi.org/10.1145/3079079.3079082">"Enabling scalability-sensitive speculative parallelization for FSM computations."</a>&nbsp;Junqiao Qiu, Zhijia Zhao 0001, Bo Wu 0002, Abhinav Vishnu, <b>Shuaiwen Leon Song</b>.&nbsp;In<a href="https://dl.acm.org/doi/proceedings/10.1145/3079079"> Proceedings of the International Conference on Supercomputing (ICS '17)</a>.</li>
+							<li><a href="https://doi.org/10.1109/IPDPSW.2017.182">"HPPAC Workshop Introduction."</a>&nbsp;<b>Shuaiwen Leon Song</b>, Richard W. Vuduc.&nbsp;In<a href="https://ieeexplore.ieee.org/xpl/conhome/7964630/proceeding"> 2017 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW)</a>.</li>
+							<li><a href="https://doi.org/10.1109/IPDPSW.2017.184">"IPDRM Workshop Introduction."</a>&nbsp;<b>Shuaiwen Leon Song</b>, Torsten Hoefler.&nbsp;In<a href="https://ieeexplore.ieee.org/xpl/conhome/7964630/proceeding"> 2017 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW)</a>.</li>
+							<li><a href="https://doi.org/10.1145/3123939.3123944">"BVF: enabling significant on-chip power savings via bit-value-favor for throughput processors."</a>&nbsp;Ang Li, Wenfeng Zhao, <b>Shuaiwen Leon Song</b>.&nbsp;In<a href="https://dl.acm.org/doi/proceedings/10.1145/3123939"> Proceedings of the 50th Annual IEEE/ACM International Symposium on Microarchitecture (MICRO '17)</a>.</li>
+							<li><a href="https://doi.org/10.1145/3126908.3126931">"Exploring and analyzing the real impact of modern on-package memory on HPC scientific kernels."</a>&nbsp;Ang Li, Weifeng Liu 0002, Mads Ruben Burgdorff Kristensen, Brian Vinter, Hao Wang, Kaixi Hou, Andres Marquez, <b>Shuaiwen Leon Song</b>.&nbsp;In<a href="https://dl.acm.org/doi/proceedings/10.1145/3126908"> Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis (SC '17)</a>.</li>
+							<li><a href="https://doi.org/10.1145/3145617.3158214">"Evaluating GPGPU Memory Performance Through the C-AMAT Model."</a>&nbsp;Ning Zhang, Chuntao Jiang, Xian-He Sun, <b>Shuaiwen Leon Song</b>.&nbsp;In<a href="https://dl.acm.org/doi/proceedings/10.1145/3145617"> Proceedings of the Workshop on Memory Centric Programming for HPC (MCHPC '17)</a>.</li>
+							<li><a href="https://doi.org/10.1007/978-3-319-58667-0_6">"EvoGraph: On-the-Fly Efficient Mining of Evolving Graphs on GPU."</a>&nbsp;Dipanjan Sengupta, <b>Shuaiwen Leon Song</b>.&nbsp;In<a href="https://link.springer.com/book/10.1007/978-3-319-58667-0"> 32nd International Conference, ISC High Performance 2017 (ISC '17)</a>.</li>
+							<li><a href="https://doi.org/10.1145/2822893">"Scalable Energy Efficiency with Resilience for High Performance Computing Systems: A Quantitative Methodology."</a>&nbsp;Li Tan, Zizhong Chen, <b>Shuaiwen Leon Song</b>.&nbsp;In<a href="https://dl.acm.org/journal/taco"> Transactions on Architecture and Code Optimization</a>.</li>
+							<li><a href="https://doi.org/10.1145/2967938.2967951">"Combating the Reliability Challenge of GPU Register File at Low Supply Voltage."</a>&nbsp;Jingweijia Tan, <b>Shuaiwen Leon Song</b>, Kaige Yan, Xin Fu, Andrès Márquez, Darren J. Kerbyson.&nbsp;In<a href="https://dl.acm.org/doi/proceedings/10.1145/2967938"> Proceedings of the 2016 International Conference on Parallel Architectures and Compilation Techniques (PACT '16)</a>.</li>
+							<li><a href="http://ieeexplore.ieee.org/document/7459506/">"Critical points based register-concurrency autotuning for GPUs."</a>&nbsp;Ang Li, <b>Shuaiwen Leon Song</b>, Akash Kumar 0001, Eddy Z. Zhang, Daniel G. Chavarría-Miranda, Henk Corporaal.&nbsp;In<a href="https://ieeexplore.ieee.org/xpl/conhome/7454909/proceeding"> 2016 Design, Automation & Test in Europe Conference & Exhibition (DATE)</a>.</li>
+							<li><a href="https://doi.org/10.1145/2907294.2907306">"New-Sum: A Novel Online ABFT Scheme For General Iterative Methods."</a>&nbsp;Dingwen Tao, <b>Shuaiwen Leon Song</b>, Sriram Krishnamoorthy, Panruo Wu, Xin Liang, Eddy Z. Zhang, Darren J. Kerbyson, Zizhong Chen.&nbsp;In<a href="https://dl.acm.org/doi/proceedings/10.1145/2907294"> Proceedings of the 25th ACM International Symposium on High-Performance Parallel and Distributed Computing (HPDC '16)</a>.</li>
+							<li><a href="https://doi.org/10.1145/2907294.2907308">"SMT-Aware Instantaneous Footprint Optimization."</a>&nbsp;Probir Roy, Xu Liu 0001, <b>Shuaiwen Leon Song</b>.&nbsp;In<a href="https://dl.acm.org/doi/proceedings/10.1145/2907294"> Proceedings of the 25th ACM International Symposium on High-Performance Parallel and Distributed Computing (HPDC '16)</a>.</li>
+							<li><a href="https://doi.org/10.1145/2925426.2926255">"SFU-Driven Transparent Approximation Acceleration on GPUs."</a>&nbsp;Ang Li, <b>Shuaiwen Leon Song</b>, Mark Wijtvliet, Akash Kumar 0001, Henk Corporaal.&nbsp;In<a href="https://dl.acm.org/doi/proceedings/10.1145/2925426"> Proceedings of the 2016 International Conference on Supercomputing (ICS '16)</a>.</li>
+							<li><a href="https://doi.org/10.1145/2925426.2926253">"Tag-Split Cache for Efficient GPGPU Cache Utilization."</a>&nbsp;Lingda Li, Ari B. Hayes, <b>Shuaiwen Leon Song</b>, Eddy Z. Zhang.&nbsp;In<a href="https://dl.acm.org/doi/proceedings/10.1145/2925426"> Proceedings of the 2016 International Conference on Supercomputing (ICS '16)</a>.</li>
+							<li><a href="https://doi.org/10.1109/IPDPS.2016.89">"X: A Comprehensive Analytic Model for Parallel Machines."</a>&nbsp;Ang Li, <b>Shuaiwen Leon Song</b>, Eric Brugel, Akash Kumar 0001, Daniel G. Chavarría-Miranda, Henk Corporaal.&nbsp;In<a href="https://ieeexplore.ieee.org/xpl/conhome/7510487/proceeding"> 2016 IEEE International Parallel and Distributed Processing Symposium (IPDPS '16)</a>.</li>
+							<li><a href="https://doi.org/10.1109/IPDPSW.2016.240">"HPPAC Introduction and Committees."</a>&nbsp;Barry Rountree, <b>Shuaiwen Leon Song</b>.&nbsp;In<a href="https://ieeexplore.ieee.org/xpl/conhome/7518534/proceeding"> 2016 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW)</a>.</li>
+							<li><a href="https://doi.org/10.1109/IPDPSW.2016.255">"IPDRM Introduction and Committees."</a>&nbsp;<b>Shuaiwen Leon Song</b>, Todd Gamblin.&nbsp;In<a href="https://ieeexplore.ieee.org/xpl/conhome/7518534/proceeding"> 2016 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW)</a>.</li>
+							<li><a href="http://dl.acm.org/citation.cfm?id=2988355">"Orion: A Framework for GPU Occupancy Tuning."</a>&nbsp;Ari B. Hayes, Lingda Li, Daniel G. Chavarría-Miranda, <b>Shuaiwen Leon Song</b>, Eddy Z. Zhang.&nbsp;In<a href="https://dl.acm.org/doi/proceedings/10.1145/2988336"> Proceedings of the 17th International Middleware Conference (Middleware '16)</a>.</li>
+							<li><a href="https://doi.org/10.1016/j.jpdc.2014.09.005">"Scaling Support Vector Machines on modern HPC platforms."</a>&nbsp;Yang You, Haohuan Fu, <b>Shuaiwen Leon Song</b>, Amanda Peters Randles, Darren J. Kerbyson, Andres Marquez, Guangwen Yang, Adolfy Hoisie.&nbsp;In<a href="https://www.sciencedirect.com/journal/journal-of-parallel-and-distributed-computing"> Journal of Parallel and Distributed Computing 2015</a>.</li>
+							<li><a href="https://doi.org/10.1109/HPCC-CSS-ICESS.2015.291">"Gregarious Data Re-structuring in a Many Core Architecture."</a>&nbsp;Sunil Shrestha, Joseph B. Manzano, Andrès Márquez, Stéphane Zuckerman, <b>Shuaiwen Song</b>, Guang R. Gao.&nbsp;In<a href="https://ieeexplore.ieee.org/xpl/conhome/7335977/proceeding"> 2015 IEEE 17th International Conference on High Performance Computing and Communications, 2015 IEEE 7th International Symposium on Cyberspace Safety and Security, and 2015 IEEE 12th International Conference on Embedded Software and Systems</a>.</li>
+							<li><a href="https://doi.org/10.1145/2751205.2751237">"Locality-Driven Dynamic GPU Cache Bypassing."</a>&nbsp;Chao Li 0004, <b>Shuaiwen Leon Song</b>, Hongwen Dai, Albert Sidelnik, Siva Kumar Sastry Hari, Huiyang Zhou.&nbsp;In<a href="https://dl.acm.org/doi/proceedings/10.1145/2751205"> Proceedings of the 29th ACM on International Conference on Supercomputing (ICS '15)</a>.</li>
+							<li><a href="https://doi.org/10.1109/IPDPSW.2015.16">"GraphReduce: Large-Scale Graph Analytics on Accelerator-Based HPC Systems."</a>&nbsp;Dipanjan Sengupta, Kapil Agarwal, <b>Shuaiwen Leon Song</b>, Karsten Schwan.&nbsp;In<a href="https://ieeexplore.ieee.org/xpl/conhome/7275194/proceeding"> 2015 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW)</a>.</li>
+							<li><a href="https://doi.org/10.1109/IPDPS.2015.108">"Investigating the Interplay between Energy Efficiency and Resilience in High Performance Computing."</a>&nbsp;Li Tan, <b>Shuaiwen Leon Song</b>, Panruo Wu, Zizhong Chen, Rong Ge 0002, Darren J. Kerbyson.&nbsp;In<a href="https://ieeexplore.ieee.org/xpl/conhome/7159926/proceeding"> 2015 IEEE International Parallel and Distributed Processing Symposium (IPDPS '15)</a>.</li>
+							<li><a href="https://doi.org/10.1145/2807591.2807655">"GraphReduce: processing large-scale graphs on accelerator-based systems."</a>&nbsp;Dipanjan Sengupta, <b>Shuaiwen Leon Song</b>, Kapil Agarwal, Karsten Schwan.&nbsp;In<a href="https://dl.acm.org/doi/proceedings/10.1145/2807591"> Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis (SC '15)</a>.</li>
+							<li><a href="https://doi.org/10.1177/1094342014524807">"Evaluating multi-core and many-core architectures through accelerating the three-dimensional Lax-Wendroff correction stencil."</a>&nbsp;Yang You, Haohuan Fu, <b>Shuaiwen Leon Song</b>, Maryam Mehri Dehnavi, Lin Gan, Xiaomeng Huang, Guangwen Yang.&nbsp;In<a href="https://dl.acm.org/journal/sage-hpca"> International Journal of High Performance Computing Applications 2014</a>.</li>
+							<li><a href="https://doi.org/10.1142/S0129626414420018">"Extending PowerPack for Profiling and Analysis of High-Performance Accelerator-Based Systems."</a>&nbsp;Bo Li 0032, Hung-Ching Chang, <b>Shuaiwen Song</b>, Chun-Yi Su, Timmy Meyer, John Mooring, Kirk W. Cameron.&nbsp;In<a href="https://www.worldscientific.com/worldscinet/ppl"> Parallel Processing Letters 2014</a>.</li>
+							<li><a href="https://doi.org/10.1109/PADSW.2014.7097820">"ACDT: Architected Composite Data Types trading-in unfettered data access for improved execution."</a>&nbsp;Andres Marquez, Joseph B. Manzano, <b>Shuaiwen Leon Song</b>, Benoît Meister, Sunil Shrestha, Thomas St. John, Guang R. Gao.&nbsp;In<a href="https://ieeexplore.ieee.org/xpl/conhome/7092978/proceeding"> 2014 20th IEEE International Conference on Parallel and Distributed Systems (ICPADS '14)</a>.</li>
+							<li><a href="https://doi.org/10.1145/2597652.2600110">"An adaptive cross-architecture combination method for graph traversal."</a>&nbsp;Yang You, <b>Shuaiwen Leon Song</b>, Darren J. Kerbyson.&nbsp;In<a href="https://dl.acm.org/doi/proceedings/10.1145/2597652"> Proceedings of the 28th ACM international conference on Supercomputing (ICS '14)</a>.</li>
+							<li><a href="https://doi.org/10.1109/IPDPS.2014.88">"MIC-SVM: Designing a Highly Efficient Support Vector Machine for Advanced Modern Multi-core and Many-Core Architectures."</a>&nbsp;Yang You, <b>Shuaiwen Leon Song</b>, Haohuan Fu, Andres Marquez, Maryam Mehri Dehnavi, Kevin J. Barker, Kirk W. Cameron, Amanda Peters Randles, Guangwen Yang.&nbsp;In<a href="https://ieeexplore.ieee.org/xpl/conhome/6875427/proceeding"> 2014 IEEE 28th International Parallel and Distributed Processing Symposium (IPDPS '14)</a>.</li>
+							<li><a href="https://doi.org/10.1109/IPDPSW.2014.162">"The Power-Performance Tradeoffs of the Intel Xeon Phi on HPC Applications."</a>&nbsp;Bo Li 0032, Hung-Ching Chang, <b>Shuaiwen Song</b>, Chun-Yi Su, Timmy Meyer, John Mooring, Kirk W. Cameron.&nbsp;In<a href="https://ieeexplore.ieee.org/xpl/conhome/6967893/proceeding"> 2014 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW)</a>.</li>
+							<li><a href="https://doi.org/10.1007/s11227-011-0699-9">"Designing energy efficient communication runtime systems: a view from PGAS models."</a>&nbsp;Abhinav Vishnu, <b>Shuaiwen Song</b>, Andres Marquez, Kevin J. Barker, Darren J. Kerbyson, Kirk W. Cameron, Pavan Balaji.&nbsp;In<a href="https://link.springer.com/journal/11227"> The Journal of Supercomputing</a>.</li>
+							<li><a href="https://doi.org/10.1109/CLUSTER.2013.6702674">"EDR: An energy-aware runtime load distribution system for data-intensive applications in the cloud."</a>&nbsp;Bo Li 0032, <b>Shuaiwen Leon Song</b>, Ivona Bezáková, Kirk W. Cameron.&nbsp;In<a href="https://ieeexplore.ieee.org/xpl/conhome/6689497/proceeding"> IEEE International Conference on Cluster Computing (CLUSTER '13)</a>.</li>
+							<li><a href="https://doi.org/10.1109/IPDPS.2013.73">"A Simplified and Accurate Model of Power-Performance Efficiency on Emergent GPU Architectures."</a>&nbsp;<b>Shuaiwen Song</b>, Chun-Yi Su, Barry Rountree, Kirk W. Cameron.&nbsp;In<a href="https://ieeexplore.ieee.org/xpl/conhome/6569024/proceeding"> 2013 IEEE 27th International Symposium on Parallel and Distributed Processing (IPDPS '13)</a>.</li>
+							<li><a href="https://doi.org/10.1145/2536430.2536435">"Unified performance and power modeling of scientific workloads."</a>&nbsp;<b>Shuaiwen Leon Song</b>, Kevin J. Barker, Darren J. Kerbyson.&nbsp;In<a href="https://dl.acm.org/doi/proceedings/10.1145/2536430"> Proceedings of the 1st International Workshop on Energy Efficient Supercomputing (E2SC '13)</a>.</li>
+							<li><a href="https://doi.org/10.1145/2370816.2370903">"System-level power-performance efficiency modeling for emergent GPU architectures."</a>&nbsp;<b>Shuaiwen Song</b>, Kirk W. Cameron.&nbsp;In<a href="https://dl.acm.org/doi/proceedings/10.1145/2370816"> Proceedings of the 21st international conference on Parallel architectures and compilation techniques (PACT '12)</a>.</li>
+							<li><a href="https://doi.org/10.1109/MASCOTS.2012.66">"Energy-Aware Replica Selection for Data-Intensive Services in Cloud."</a>&nbsp;Bo Li 0032, <b>Shuaiwen Song</b>, Ivona Bezáková, Kirk W. Cameron.&nbsp;In<a href="https://ieeexplore.ieee.org/xpl/conhome/6297612/proceeding"> 2012 IEEE 20th International Symposium on Modeling, Analysis and Simulation of Computer and Telecommunication Systems</a>.</li>
+							<li><a href="https://doi.org/10.1109/SC.Companion.2012.177">"Abstract: Three Steps to Model Power-Performance Efficiency for Emergent GPU-Based Parallel Systems."</a>&nbsp;<b>Shuaiwen Leon Song</b>, Chun-Yi Su, Barry Rountree, Kirk W. Cameron.&nbsp;In<a href="https://ieeexplore.ieee.org/xpl/conhome/6494369/proceeding"> 2012 SC Companion: High Performance Computing, Networking Storage and Analysis</a>.</li>
+							<li><a href="https://doi.org/10.1109/SC.Companion.2012.178">"Poster: Three Steps to Model Power-Performance Efficiency for Emergent GPU-Based Parallel Systems."</a>&nbsp;<b>Shuaiwen Leon Song</b>.&nbsp;In<a href="https://ieeexplore.ieee.org/xpl/conhome/6494369/proceeding"> 2012 SC Companion: High Performance Computing, Networking Storage and Analysis</a>.</li>
+							<li><a href="https://doi.org/10.1109/CLUSTER.2011.37">"An ISO-Energy-Efficient Approach to Scalable System Power-Performance Optimization."</a>&nbsp;<b>Shuaiwen Song</b>, Matthew Grove, Kirk W. Cameron.&nbsp;In<a href="https://ieeexplore.ieee.org/xpl/conhome/6059523/proceeding"> IEEE International Conference on Cluster Computing (CLUSTER '11)</a>.</li>
+							<li><a href="https://doi.org/10.1109/IPDPS.2011.22">"Iso-Energy-Efficiency: An Approach to Power-Constrained Parallel Computation."</a>&nbsp;<b>Shuaiwen Song</b>, Chun-Yi Su, Rong Ge 0002, Abhinav Vishnu, Kirk W. Cameron.&nbsp;In<a href="https://ieeexplore.ieee.org/xpl/conhome/6011824/proceeding"> 2011 IEEE International Parallel & Distributed Processing Symposium  (IPDPS '11)</a>.</li>
+							<li><a href="https://doi.org/10.1109/TPDS.2009.76">"PowerPack: Energy Profiling and Analysis of High-Performance Systems and Applications."</a>&nbsp;Rong Ge 0002, Xizhou Feng, <b>Shuaiwen Song</b>, Hung-Ching Chang, Dong Li 0001, Kirk W. Cameron.&nbsp;In<a href="https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=5439161"> IEEE Transactions on Parallel and Distributed Systems 2010</a>.</li>
+							<li><a href="https://doi.org/10.1109/GreenCom-CPSCom.2010.133">"Designing Energy Efficient Communication Runtime Systems for Data Centric Programming Models."</a>&nbsp;Abhinav Vishnu, <b>Shuaiwen Song</b>, Andres Marquez, Kevin J. Barker, Darren J. Kerbyson, Kirk W. Cameron, Pavan Balaji.&nbsp;In<a href="https://ieeexplore.ieee.org/xpl/conhome/5724111/proceeding"> 2010 IEEE/ACM Int'l Conference on Green Computing and Communications & Int'l Conference on Cyber, Physical and Social Computing</a>.</li>
+							<li><a href="https://doi.org/10.1109/HIPC.2010.5713195">"Fault-tolerant communication runtime support for data-centric programming models."</a>&nbsp;Abhinav Vishnu, Huub J. J. Van Dam, Wibe de Jong, Pavan Balaji, <b>Shuaiwen Song</b>.&nbsp;In<a href="https://ieeexplore.ieee.org/xpl/conhome/5708271/proceeding"> 2010 International Conference on High Performance Computing (HiPC '10)</a>.</li>
+							<li><a href="https://doi.org/10.1177/1094342009106193">"Energy Profiling and Analysis of the HPC Challenge Benchmarks."</a>&nbsp;<b>Shuaiwen Song</b>, Rong Ge 0002, Xizhou Feng, Kirk W. Cameron.&nbsp;In<a href="https://dl.acm.org/journal/sage-hpca"> International Journal of High Performance Computing Applications 2009</a>.</li>							
+						</ul>
+					</div>
+				</div>
+
+				<div class="row">
+					<hr />
+					<div class="col-md-12">
 						<h3>Past and Current Sponsors and Collaborators<br /></h3>
 						<img src="images/nvidia.png" alt="Nvidia" style="width:200px;">
 						<img src="images/intel.png" alt="Intel" style="width:200px;">
-						<img src="images/microsoft.jpg" alt="MSFT" style="width:200px;">
+						<img src="images/microsoft.png" alt="MSFT" style="width:200px;">
+						<img src="images/google.png" alt="MSFT" style="width:200px;">
 						<img src="images/DepartmentofEnergy.png" alt="DoE" style="width:200px;">
 						<img src="images/DoEOfficeOfScience.png" alt="DoE Office of Science" style="width:200px;">
 						<img src="images/pnnl.png" alt="PNNL" style="width:200px;">
@@ -319,6 +406,43 @@
 						<img src="images/DARPA.jpg" alt="DARPA" style="width:200px;">
 					</div>
 				</div>
+
+				<div class="row">
+					<hr />
+					<h3>Contact<br /></h3>
+					<div class="col-md-12">
+						<div class="col-md-4">
+							<p><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i><br />Room 438, School of
+								Computing<br>The University of Sydney<br>Camperdown NSW 2006, Australia</p>
+						</div>
+						<div class="col-md-4">
+							<p><i class="fa fa-envelope fa-lg" aria-hidden="true"></i> <br> shuaiwen.song |at| sydney |
+								dot | edu | dot | au</p>
+						</div>
+						<div class="col-md-4">
+							<p><i class="fa fa-phone fa-lg" aria-hidden="true"></i><br /> +61 2 8627 9613 </p>
+						</div>
+					</div>
+
+					<div class="col-md-12">
+						<div id="mapid"></div>
+					</div>
+				</div>
+
+				<script>
+					var mymap = L.map('mapid').setView([-33.88825, 151.19397], 17);
+					L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZG9uZ2xpbnoiLCJhIjoiY2s4MGQ0dHlhMDBoYTNnbXcxeTJqaXZoeSJ9.PFZt4eucQkSPuixkZ2tvyA', {
+					attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+					maxZoom: 18,
+					id: 'mapbox/streets-v11',
+					tileSize: 512,
+					zoomOffset: -1,
+					accessToken: 'your.mapbox.access.token'
+				}).addTo(mymap);
+
+				var marker = L.marker([-33.88825, 151.19397]).addTo(mymap);
+				marker.bindPopup("Room 438<br />School of Computing<br />The University of Sydney<br />Camperdown NSW 2006, Australia").openPopup();
+				</script>
 			</div>
 		</div>
 		<hr />
